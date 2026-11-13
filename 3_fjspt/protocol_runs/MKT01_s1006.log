@@ -1,0 +1,12 @@
+[MKT01 s1006] run 1 t=103s runBest=176.0 best=176.0 it=100000000 feas=0.68
+[MKT01 s1006] run 2 t=207s runBest=175.0 best=175.0 it=200000000 feas=0.68
+[MKT01 s1006] run 3 t=309s runBest=174.0 best=174.0 it=300000000 feas=0.68
+[MKT01 s1006] run 4 t=413s runBest=174.0 best=174.0 it=400000000 feas=0.68
+[MKT01 s1006] run 5 t=516s runBest=175.0 best=174.0 it=500000000 feas=0.68
+[MKT01 s1006] run 6 t=619s runBest=176.0 best=174.0 it=600000000 feas=0.68
+[MKT01 s1006] run 7 t=721s runBest=176.0 best=174.0 it=700000000 feas=0.68
+[MKT01 s1006] run 8 t=825s runBest=175.0 best=174.0 it=800000000 feas=0.68
+[MKT01 s1006] run 9 t=927s runBest=176.0 best=174.0 it=900000000 feas=0.68
+[MKT01 s1006] run 10 t=1030s runBest=176.0 best=174.0 it=1000000000 feas=0.68
+[MKT01 s1006] run 11 t=1132s runBest=176.0 best=174.0 it=1100000000 feas=0.68
+[MKT01 s1006] run 12 t=1200s runBest=176.0 best=174.0 it=1165732608 feas=0.68

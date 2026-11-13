@@ -1,0 +1,5 @@
+[MKT09 s131] run 1 t=636s runBest=613.0 best=613.0 it=100000000 feas=0.70
+[MKT09 s131] run 2 t=1270s runBest=598.0 best=598.0 it=200000000 feas=0.70
+[MKT09 s131] run 3 t=1899s runBest=608.0 best=598.0 it=300000000 feas=0.70
+[MKT09 s131] run 4 t=2530s runBest=603.0 best=598.0 it=400000000 feas=0.70
+[MKT09 s131] run 5 t=2701s runBest=666.0 best=598.0 it=427328512 feas=0.70

@@ -1,0 +1,4 @@
+instance behnke11
+best_makespan 230
+threads 8
+limit 600

@@ -1,0 +1,44 @@
+{
+ "instance": "behnke46",
+ "status": "OPTIMAL",
+ "obj": 114,
+ "bound": 114,
+ "relax": "none",
+ "mode": "min",
+ "cap": 115,
+ "pools": 1,
+ "time": 600.0,
+ "workers": 8,
+ "seed": 0,
+ "wall": 35.0,
+ "hint": "best/behnke46.sched",
+ "hint_makespan": 115,
+ "trace": [
+  [
+   1.9,
+   115,
+   73
+  ],
+  [
+   34.93,
+   114,
+   114
+  ]
+ ],
+ "n_pools": 15,
+ "middle_pools": [
+  1,
+  2,
+  3,
+  4,
+  5,
+  6,
+  7,
+  8,
+  9,
+  10,
+  11,
+  12,
+  13
+ ]
+}

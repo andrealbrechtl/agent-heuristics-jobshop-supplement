@@ -1,0 +1,21 @@
+{
+ "instance": "setb4xyt",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "882",
+ "incumbent": "882",
+ "runtime": 0.02,
+ "nvars": 879,
+ "ncons": 1037,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_1": 2
+ },
+ "empty_into_0": 13,
+ "empty_time": "130"
+}

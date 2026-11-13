@@ -1,0 +1,6 @@
+NEWBEST t=0.000 cmax=132.0
+NEWBEST t=0.000 cmax=111.0
+[SFJST02 s4] run 1 t=20s runBest=111.0 best=111.0 it=100000000 feas=0.46
+[SFJST02 s4] run 2 t=40s runBest=111.0 best=111.0 it=200000000 feas=0.46
+[SFJST02 s4] run 3 t=57s runBest=111.0 best=111.0 it=300000000 feas=0.46
+[SFJST02 s4] run 4 t=60s runBest=111.0 best=111.0 it=317629184 feas=0.46

@@ -1,0 +1,10 @@
+{
+ "instance": "mt10cct",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "948",
+ "incumbent": "948",
+ "runtime": 0.41,
+ "hinted": true
+}

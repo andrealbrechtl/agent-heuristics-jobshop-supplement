@@ -1,0 +1,22 @@
+[parse] behnke35: 50 jobs x 40 machines, 250 ops | machine ids 1..40 (1-indexed -> normalised to 0) | avg eligible/op 12.48 (header says 12.48)
+[   0.01s] makespan 228
+[   0.01s] makespan 226
+[   0.01s] makespan 225
+[   0.01s] makespan 224
+[   0.01s] makespan 223
+[   0.01s] makespan 222
+[   0.04s] makespan 221
+[   0.04s] makespan 220
+[   0.04s] makespan 219
+[   0.09s] makespan 218
+[   0.20s] makespan 217
+[   0.20s] makespan 216
+[ 106.81s] makespan 215
+instance behnke35
+best_makespan 215
+time_to_best 106.81
+threads 4
+limit 150
+total_iterations 21229824
+iterations_per_sec_total 141517
+kept_candidates 1167787333

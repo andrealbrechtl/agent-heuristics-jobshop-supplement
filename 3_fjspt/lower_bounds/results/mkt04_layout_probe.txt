@@ -1,0 +1,26 @@
+MKT03 published LB1/LB2 = (117, 200)  machines used: [1, 2, 3, 4, 5, 6, 7, 8]
+   4to18 8-M layout restricted      LB1=   120 LB2=    203
+   4to18 10-M layout restricted     LB1=   130 LB2= 272.25
+   4to18 11-M layout restricted     LB1=   109 LB2=    183
+   4to18 12-M layout restricted     LB1=   119 LB2=    188
+   4to18 13-M layout restricted     LB1=   126 LB2=    197
+   4to18 15-M layout restricted     LB1=   130 LB2= 272.25
+   4to18 16-M layout restricted     LB1=   119 LB2=    183
+   4to18 17-M layout restricted     LB1=   117 LB2=    202
+   4to18 18-M layout restricted     LB1=   131 LB2=    210
+   2to8 8-M layout restricted       LB1=   120 LB2=    203
+   8-M transposed                   LB1=   116 LB2=    199
+   our file                         LB1=   120 LB2=    203
+MKT04 published LB1/LB2 = (80, 152)  machines used: [1, 2, 3, 4, 5, 6, 7, 8]
+   4to18 8-M layout restricted      LB1=    81 LB2=    176
+   4to18 10-M layout restricted     LB1=  80.5 LB2=    188
+   4to18 11-M layout restricted     LB1=    65 LB2=    127
+   4to18 12-M layout restricted     LB1=    72 LB2=    140
+   4to18 13-M layout restricted     LB1=    81 LB2=    172
+   4to18 15-M layout restricted     LB1=  80.5 LB2=    188
+   4to18 16-M layout restricted     LB1=    78 LB2=    180
+   4to18 17-M layout restricted     LB1=    82 LB2=    171
+   4to18 18-M layout restricted     LB1=    82 LB2=    162
+   2to8 8-M layout restricted       LB1=    81 LB2=    176
+   8-M transposed                   LB1=    76 LB2=    164
+   our file                         LB1=    81 LB2=    176

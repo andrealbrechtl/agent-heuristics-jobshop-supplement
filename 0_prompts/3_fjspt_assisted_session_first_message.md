@@ -1,0 +1,3 @@
+We will be working on getting the solutions for instances on the literature, this is the first step for us to create a task, below I will paste a paper that has some of the best solutions and some instances, i want you to chose the one that has the highest probabilty of improving the best known solution and work on it. You have many cores available and you can use them freely. Our goal is not to compatutacionally break them but instead find clever ways to beat conventional solver and heuristics, we want solutions tailoed for those instances, here is the paper:
+
+[pasted: Meng et al. 2023, "An Improved Genetic Algorithm for Solving the Multi-AGV Flexible Job Shop Scheduling Problem", Sensors 23(8):3815]

@@ -1,0 +1,8 @@
+[setb4xyzt] init from best/setb4xyzt.sol: 969.0
+[setb4xyzt s401] run 1 t=191s runBest=969.0 best=969.0 it=40000000 feas=0.64
+[setb4xyzt s401] run 2 t=375s runBest=976.0 best=969.0 it=80000000 feas=0.64
+[setb4xyzt s401] run 3 t=559s runBest=978.0 best=969.0 it=120000000 feas=0.64
+[setb4xyzt s401] run 4 t=739s runBest=996.0 best=969.0 it=160000000 feas=0.64
+[setb4xyzt s401] run 5 t=923s runBest=968.0 best=968.0 it=200000000 feas=0.64
+[setb4xyzt s401] run 6 t=1106s runBest=1015.0 best=968.0 it=240000000 feas=0.64
+[setb4xyzt s401] run 7 t=1200s runBest=1042.0 best=968.0 it=261102592 feas=0.64

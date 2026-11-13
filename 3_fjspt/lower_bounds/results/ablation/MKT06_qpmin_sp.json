@@ -1,0 +1,22 @@
+{
+ "instance": "MKT06",
+ "variant": "sound_sp_abl-qpmin",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "242.5",
+ "incumbent": "242.5",
+ "runtime": 0.69,
+ "nvars": 2801,
+ "ncons": 2245,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_1": 1,
+  "f_2": 1
+ },
+ "empty_into_0": 8,
+ "empty_time": "39"
+}

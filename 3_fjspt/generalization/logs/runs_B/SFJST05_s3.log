@@ -1,0 +1,8 @@
+NEWBEST t=0.000 cmax=140.0
+NEWBEST t=0.000 cmax=132.0
+NEWBEST t=0.000 cmax=131.0
+NEWBEST t=0.000 cmax=131.0
+NEWBEST t=0.000 cmax=123.0
+[SFJST05 s3] run 1 t=29s runBest=123.0 best=123.0 it=100000000 feas=0.71
+[SFJST05 s3] run 2 t=53s runBest=123.0 best=123.0 it=200000000 feas=0.65
+[SFJST05 s3] run 3 t=60s runBest=123.0 best=123.0 it=222478848 feas=0.65

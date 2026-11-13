@@ -1,0 +1,5 @@
+instance 2_fjsp_behnke/generalization/instances/behnke49.fjs: 20 jobs, 60 machines, 100 ops, instance machine base 1, header avg 18.2, recomputed avg 18.2000
+schedule runs/tabu_120s/behnke49.sched: 100 rows, claimed makespan 114, meta {'instance': 'behnke49', 'jobs': '20', 'machines': '60', 'operations': '100'}
+  schedule machine base 0: FEASIBLE makespan 114
+  schedule machine base 1: infeasible (99 errors, first: op (0, 0) on ineligible/unknown machine 0)
+RESULT: OK makespan 114 (schedule machine base 0)

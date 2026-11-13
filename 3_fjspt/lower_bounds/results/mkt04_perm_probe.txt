@@ -1,0 +1,5 @@
+MKT01 identity: (57.0, 125.0) published: (57, 125) | perms matching LB1: 40, LB2: 10, both: 2 [(1, 2, 3, 4, 5, 6), (6, 2, 4, 3, 5, 1)]
+MKT02 identity: (53.0, 83.0) published: (53, 83) | perms matching LB1: 51, LB2: 7, both: 1 [(1, 2, 3, 4, 5, 6)]
+MKT05 identity: (105.0, 231.0) published: (105, 231) | perms matching LB1: 2, LB2: 2, both: 1 [(1, 2, 3, 4)]
+MKT03 identity: (120.0, 203.0) published: (117, 200) | perms matching LB1: 4952, LB2: 1035, both: 115 [(1, 2, 4, 7, 5, 8, 3, 6), (1, 2, 5, 7, 4, 3, 6, 8), (1, 2, 7, 4, 5, 8, 3, 6), (1, 3, 4, 5, 6, 2, 8, 7), (1, 3, 4, 5, 6, 8, 2, 7)]
+MKT04 identity: (81.0, 176.0) published: (80, 152) | perms matching LB1: 1531, LB2: 822, both: 7 [(1, 2, 4, 6, 3, 5, 7, 8), (1, 8, 4, 6, 3, 5, 7, 2), (4, 7, 3, 6, 2, 1, 5, 8), (5, 6, 8, 7, 2, 3, 1, 4), (7, 4, 5, 2, 6, 1, 3, 8)]

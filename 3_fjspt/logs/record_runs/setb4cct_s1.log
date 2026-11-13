@@ -1,0 +1,17 @@
+[setb4cct seed 1] run 1  t=10s  runBest=1018.0  best=1018.0  it=3000000 feas=0.60
+[setb4cct seed 1] run 2  t=20s  runBest=1018.0  best=1018.0  it=6000000 feas=0.60
+[setb4cct seed 1] run 3  t=31s  runBest=1003.0  best=1003.0  it=9000000 feas=0.60
+[setb4cct seed 1] run 4  t=42s  runBest=995.0  best=995.0  it=12000000 feas=0.60
+[setb4cct seed 1] run 5  t=53s  runBest=995.0  best=995.0  it=15000000 feas=0.60
+[setb4cct seed 1] run 6  t=63s  runBest=995.0  best=995.0  it=18000000 feas=0.60
+[setb4cct seed 1] run 7  t=74s  runBest=995.0  best=995.0  it=21000000 feas=0.60
+[setb4cct seed 1] run 8  t=82s  runBest=995.0  best=995.0  it=24000000 feas=0.60
+[setb4cct seed 1] run 9  t=90s  runBest=995.0  best=995.0  it=27000000 feas=0.59
+[setb4cct seed 1] run 10  t=98s  runBest=995.0  best=995.0  it=30000000 feas=0.60
+[setb4cct seed 1] run 11  t=105s  runBest=995.0  best=995.0  it=33000000 feas=0.60
+[setb4cct seed 1] run 12  t=112s  runBest=995.0  best=995.0  it=36000000 feas=0.60
+[setb4cct seed 1] run 13  t=120s  runBest=995.0  best=995.0  it=39000000 feas=0.60
+[setb4cct seed 1] run 14  t=127s  runBest=995.0  best=995.0  it=42000000 feas=0.60
+[setb4cct seed 1] run 15  t=135s  runBest=993.0  best=993.0  it=45000000 feas=0.60
+[setb4cct seed 1] run 16  t=146s  runBest=1016.0  best=993.0  it=48000000 feas=0.60
+[setb4cct seed 1] run 17  t=150s  runBest=993.0  best=993.0  it=49179648 feas=0.60

@@ -1,0 +1,10 @@
+{
+ "instance": "seti5xt",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "1245",
+ "incumbent": "1245",
+ "runtime": 1.42,
+ "hinted": false
+}

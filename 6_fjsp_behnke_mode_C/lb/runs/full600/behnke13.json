@@ -1,0 +1,29 @@
+{
+ "instance": "behnke13",
+ "status": "FEASIBLE",
+ "obj": 227,
+ "bound": 224,
+ "relax": "none",
+ "mode": "min",
+ "cap": 227,
+ "pools": 1,
+ "time": 600.0,
+ "workers": 8,
+ "seed": 0,
+ "wall": 600.1,
+ "hint": "best/behnke13.sched",
+ "hint_makespan": 227,
+ "trace": [
+  [
+   2.77,
+   227,
+   221
+  ]
+ ],
+ "n_pools": 5,
+ "middle_pools": [
+  1,
+  2,
+  3
+ ]
+}

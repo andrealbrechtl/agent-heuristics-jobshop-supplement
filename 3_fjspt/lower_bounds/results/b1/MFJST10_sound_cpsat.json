@@ -1,0 +1,23 @@
+{
+ "instance": "MFJST10",
+ "variant": "sound",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "1106",
+ "incumbent": "1106",
+ "runtime": 0.28,
+ "nvars": 568,
+ "ncons": 530,
+ "u": 1,
+ "starts": {
+  "s_0": 1,
+  "s_4": 1
+ },
+ "ends": {
+  "f_5": 1,
+  "f_7": 1
+ },
+ "empty_into_0": 11,
+ "empty_time": "164"
+}

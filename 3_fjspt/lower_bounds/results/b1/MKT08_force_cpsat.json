@@ -1,0 +1,21 @@
+{
+ "instance": "MKT08",
+ "variant": "force",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "662.5",
+ "incumbent": "662.5",
+ "runtime": 0.12,
+ "nvars": 1390,
+ "ncons": 1712,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_2": 2
+ },
+ "empty_into_0": 18,
+ "empty_time": "129.5"
+}

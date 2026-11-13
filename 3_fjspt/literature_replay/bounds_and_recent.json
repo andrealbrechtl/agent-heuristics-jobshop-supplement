@@ -1,0 +1,17 @@
+{
+ "_status": "Validated 2026-11-10: lower bounds in 3_fjspt/lower_bounds/REPORT.md (shortest-path empty moves; CP-SAT + CPLEX / CP Optimizer); published values in 3_fjspt/literature_replay/SOURCES_2024_2025.md; replays in 3_fjspt/literature_replay/{meng2025,han2024}/",
+ "mkt_lb": {"MKT01": 167, "MKT02": 120, "MKT03": 258, "MKT04": 235, "MKT05": 285, "MKT06": 244.5, "MKT07": 228, "MKT08": 662.5, "MKT09": 566.5, "MKT10": 456},
+ "mkt_ga": {"MKT01": 175, "MKT02": 124, "MKT03": 322, "MKT04": 244, "MKT05": 290, "MKT06": 300, "MKT07": 260, "MKT08": 757.5, "MKT09": 663, "MKT10": 549},
+ "mkt_ga_source": "min of DCGA (Han et al. 2024, Table 10) and IVNDGA (Jia et al. 2025, Table 9); MKT01 175 and MKT04 244 also IGA/IVNDGA",
+ "mkt_ivndga": {"MKT05": 295},
+ "mkt_cp": {"MKT01": 174, "MKT02": 124, "MKT03": 313, "MKT04": 237, "MKT05": 286, "MKT06": 288.5, "MKT07": 248, "MKT08": 722, "MKT09": 632, "MKT10": 525},
+ "mkt_cp_pure": {"MKT01": 174, "MKT02": 124, "MKT03": 329, "MKT04": 240, "MKT05": 293, "MKT06": 303, "MKT07": 248, "MKT08": 755, "MKT09": 673, "MKT10": 559},
+ "mkt_cp_source": "Meng et al. 2025 (IEEE TSMC), Table XI: best of CP-Best (CP Optimizer models, 3600 s) and DCGA-CP; schedules for MKT03/06/08/09/10 replay feasible; MKT01/02/04/07 not in the published docx",
+ "mkt_invalid": {"MKT05": {"ga": 290, "cp": 286, "reason": "published schedules (Han 2024 Appendix A; Meng 2025 docx) assign job 13 operation 5 to machine 1, which is not eligible in the distributed MKT05"}},
+ "mkt_extra_published": {"MKT04": {"value": 240, "source": "LAHC with history length 100, Homayouni and Fontes (2021)"}},
+ "cb_relax_lb": {"mt10c1t": 978, "mt10cct": 948, "mt10xt": 975, "mt10xxt": 979, "mt10xxxt": 963, "mt10xyt": 950, "mt10xyzt": 901, "setb4c9t": 954, "setb4cct": 940, "setb4xt": 959, "setb4xxt": 957, "setb4xxxt": 961, "setb4xyt": 943, "setb4xyzt": 939, "seti5c12t": 1240, "seti5cct": 1194, "seti5xt": 1245, "seti5xxt": 1253, "seti5xxxt": 1246, "seti5xyt": 1195, "seti5xyzt": 1190},
+ "cb_dcga": {"mt10c1t": 991, "mt10cct": 973, "mt10xt": 986, "mt10xxt": 991, "mt10xxxt": 981, "mt10xyt": 959, "mt10xyzt": 928, "setb4c9t": 1004, "setb4cct": 990, "setb4xt": 995, "setb4xxt": 1009, "setb4xxxt": 992, "setb4xyt": 963, "setb4xyzt": 972, "seti5c12t": 1347, "seti5cct": 1334, "seti5xt": 1355, "seti5xxt": 1373, "seti5xxxt": 1350, "seti5xyt": 1346, "seti5xyzt": 1305},
+ "cb_cp_claimed": {"mt10c1t": 979, "mt10cct": 948, "mt10xt": 978, "mt10xxt": 979, "mt10xxxt": 963, "mt10xyt": 950, "mt10xyzt": 916, "setb4c9t": 957, "setb4cct": 943, "setb4xt": 961, "setb4xxt": 961, "setb4xxxt": 961, "setb4xyt": 948, "setb4xyzt": 939, "seti5c12t": 1283, "seti5cct": 1261, "seti5xt": 1312, "seti5xxt": 1322, "seti5xxxt": 1318, "seti5xyt": 1258, "seti5xyzt": 1240},
+ "cb_cp_replayed": {"mt10c1t": 979, "mt10cct": 948, "mt10xt": 978, "mt10xxt": 979, "mt10xxxt": 963, "mt10xyt": 950, "mt10xyzt": 901, "setb4c9t": 957, "setb4cct": 943, "setb4xt": 961, "setb4xxt": 961, "setb4xxxt": 961, "setb4xyt": 948, "setb4xyzt": 939, "seti5cct": 1263, "seti5xxxt": 1316, "seti5xyzt": 1240},
+ "mfjst_best_published": {"MFJST09": 1075, "MFJST10": 1227}
+}

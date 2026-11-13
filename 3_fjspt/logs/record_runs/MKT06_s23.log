@@ -1,0 +1,13 @@
+[MKT06 s23] run 1 t=96s runBest=293.0 best=293.0 it=40000000 feas=0.64
+[MKT06 s23] run 2 t=195s runBest=292.5 best=292.5 it=80000000 feas=0.64
+[MKT06 s23] run 3 t=296s runBest=292.5 best=292.5 it=120000000 feas=0.64
+[MKT06 s23] run 4 t=399s runBest=298.5 best=292.5 it=160000000 feas=0.64
+[MKT06 s23] run 5 t=497s runBest=301.5 best=292.5 it=200000000 feas=0.64
+[MKT06 s23] run 6 t=594s runBest=292.5 best=292.5 it=240000000 feas=0.64
+[MKT06 s23] run 7 t=690s runBest=295.5 best=292.5 it=280000000 feas=0.64
+[MKT06 s23] run 8 t=789s runBest=279.5 best=279.5 it=320000000 feas=0.64
+[MKT06 s23] run 9 t=887s runBest=293.5 best=279.5 it=360000000 feas=0.64
+[MKT06 s23] run 10 t=984s runBest=297.5 best=279.5 it=400000000 feas=0.64
+[MKT06 s23] run 11 t=1080s runBest=293.5 best=279.5 it=440000000 feas=0.64
+[MKT06 s23] run 12 t=1176s runBest=295.5 best=279.5 it=480000000 feas=0.64
+[MKT06 s23] run 13 t=1200s runBest=375.0 best=279.5 it=489961472 feas=0.64

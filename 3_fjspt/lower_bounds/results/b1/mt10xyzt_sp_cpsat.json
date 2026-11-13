@@ -1,0 +1,22 @@
+{
+ "instance": "mt10xyzt",
+ "variant": "sound_sp",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "764",
+ "incumbent": "764",
+ "runtime": 0.03,
+ "nvars": 724,
+ "ncons": 749,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_8": 1,
+  "f_11": 1
+ },
+ "empty_into_0": 8,
+ "empty_time": "760"
+}

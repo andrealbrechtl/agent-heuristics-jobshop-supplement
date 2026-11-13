@@ -1,0 +1,13 @@
+[seti5cct seed 1] run 1  t=9s  runBest=1295.0  best=1295.0  it=3000000 feas=0.57
+[seti5cct seed 1] run 2  t=23s  runBest=1343.0  best=1295.0  it=6000000 feas=0.57
+[seti5cct seed 1] run 3  t=38s  runBest=1464.0  best=1295.0  it=9000000 feas=0.57
+[seti5cct seed 1] run 4  t=52s  runBest=1295.0  best=1295.0  it=12000000 feas=0.57
+[seti5cct seed 1] run 5  t=66s  runBest=1295.0  best=1295.0  it=15000000 feas=0.57
+[seti5cct seed 1] run 6  t=79s  runBest=1293.0  best=1293.0  it=18000000 feas=0.57
+[seti5cct seed 1] run 7  t=89s  runBest=1293.0  best=1293.0  it=21000000 feas=0.57
+[seti5cct seed 1] run 8  t=101s  runBest=1293.0  best=1293.0  it=24000000 feas=0.57
+[seti5cct seed 1] run 9  t=114s  runBest=1293.0  best=1293.0  it=27000000 feas=0.57
+[seti5cct seed 1] run 10  t=123s  runBest=1293.0  best=1293.0  it=30000000 feas=0.57
+[seti5cct seed 1] run 11  t=133s  runBest=1293.0  best=1293.0  it=33000000 feas=0.57
+[seti5cct seed 1] run 12  t=142s  runBest=1293.0  best=1293.0  it=36000000 feas=0.57
+[seti5cct seed 1] run 13  t=150s  runBest=1334.0  best=1293.0  it=38621440 feas=0.57

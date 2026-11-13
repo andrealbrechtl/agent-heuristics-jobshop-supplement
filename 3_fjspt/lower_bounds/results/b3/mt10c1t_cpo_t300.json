@@ -1,0 +1,10 @@
+{
+ "instance": "mt10c1t",
+ "solver": "cpo",
+ "status": "Optimal",
+ "optimal": true,
+ "lb": "978",
+ "incumbent": "978",
+ "runtime": 2.21,
+ "hinted": true
+}

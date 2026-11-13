@@ -1,0 +1,19 @@
+{
+ "trace": [
+  [
+   0.24,
+   88
+  ],
+  [
+   3.24,
+   87
+  ]
+ ],
+ "bound": 77,
+ "status": "FEASIBLE",
+ "time_limit": 120.0,
+ "threads": 8,
+ "seed": 1,
+ "wall": 119.261,
+ "version": "15.0.20261008-Linux64"
+}

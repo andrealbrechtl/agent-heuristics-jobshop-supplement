@@ -1,0 +1,22 @@
+{
+ "instance": "SFJST01",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "70",
+ "incumbent": "70",
+ "runtime": 0.01,
+ "nvars": 41,
+ "ncons": 45,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_1": 1,
+  "f_2": 1
+ },
+ "empty_into_0": 0,
+ "empty_time": "0"
+}

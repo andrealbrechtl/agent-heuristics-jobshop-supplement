@@ -1,0 +1,6 @@
+[MKT09 s134] run 1 t=642s runBest=604.0 best=604.0 it=100000000 feas=0.70
+[MKT09 s134] run 2 t=1287s runBest=601.0 best=601.0 it=200000000 feas=0.70
+[MKT09 s134] adopted shared best 598.0
+[MKT09 s134] run 3 t=1920s runBest=606.0 best=598.0 it=300000000 feas=0.70
+[MKT09 s134] run 4 t=2554s runBest=614.0 best=598.0 it=400000000 feas=0.70
+[MKT09 s134] run 5 t=2701s runBest=779.5 best=598.0 it=423396352 feas=0.70

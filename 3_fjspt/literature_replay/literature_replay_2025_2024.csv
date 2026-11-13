@@ -1,0 +1,52 @@
+source,instance,claimed,replayed,check,our_LB,replay_ge_LB,ours,note,file
+Meng2025_TSMC,MKT01,174,,NOT IN DOCX,167.0,,173,,
+Meng2025_TSMC,MKT02,124,,NOT IN DOCX,120.0,,124,,
+Meng2025_TSMC,MKT03,313,313,FEASIBLE,258.0,yes,294,,meng2025_MKT03.sol
+Meng2025_TSMC,MKT04,237,,NOT IN DOCX,235.0,,238,,
+Meng2025_TSMC,MKT05,286,,NOT REPLAYABLE (ineligible machine),285.0,,286,"docx puts op (13,5) on machine 1, not eligible in HF2021/Brandimarte mk05 (eligible: M4, M2); with M1 made eligible (any p in 5..9) the sequences give exactly 286 -> author instance file differs from HF2021",
+Meng2025_TSMC,MKT06,288.5,288.5,FEASIBLE,245.0,yes,279.5,,meng2025_MKT06.sol
+Meng2025_TSMC,MKT07,248,,NOT IN DOCX,228.0,,245,,
+Meng2025_TSMC,MKT08,722,722,FEASIBLE,662.5,yes,696,,meng2025_MKT08.sol
+Meng2025_TSMC,MKT09,632,632,FEASIBLE,566.5,yes,598,,meng2025_MKT09.sol
+Meng2025_TSMC,MKT10,525,525,FEASIBLE,459.5,yes,499,,meng2025_MKT10.sol
+Meng2025_TSMC,MFJST09,1075,1075,FEASIBLE,1075.0,yes,1090,,meng2025_MFJST09.sol
+Meng2025_TSMC,MFJST10,1227,,NOT IN DOCX,1106.0,,1244,,
+Meng2025_TSMC,mt10c1t,979,979,FEASIBLE,836.0,yes,996,,meng2025_mt10c1t.sol
+Meng2025_TSMC,mt10cct,948,948,FEASIBLE,838.0,yes,973,,meng2025_mt10cct.sol
+Meng2025_TSMC,mt10xt,978,978,FEASIBLE,836.0,yes,987,,meng2025_mt10xt.sol
+Meng2025_TSMC,mt10xxt,979,979,FEASIBLE,840.0,yes,992,,meng2025_mt10xxt.sol
+Meng2025_TSMC,mt10xxxt,963,963,FEASIBLE,832.0,yes,990,,meng2025_mt10xxxt.sol
+Meng2025_TSMC,mt10xyt,950,950,FEASIBLE,782.0,yes,950,,meng2025_mt10xyt.sol
+Meng2025_TSMC,mt10xyzt,916,901,FEASIBLE,764.0,yes,922,"claimed 916 and marked proven optimal (*), but the docx sequences give a FEASIBLE 901 under our model/data: the optimality claim is inconsistent with the HF2021 model or their data differ",meng2025_mt10xyzt.sol
+Meng2025_TSMC,setb4c9t,957,957,FEASIBLE,884.0,yes,1005,,meng2025_setb4c9t.sol
+Meng2025_TSMC,setb4cct,943,943,FEASIBLE,882.0,yes,991,,meng2025_setb4cct.sol
+Meng2025_TSMC,setb4xt,961,961,FEASIBLE,880.0,yes,1002,,meng2025_setb4xt.sol
+Meng2025_TSMC,setb4xxt,961,961,FEASIBLE,882.0,yes,993,,meng2025_setb4xxt.sol
+Meng2025_TSMC,setb4xxxt,961,961,FEASIBLE,884.0,yes,978,,meng2025_setb4xxxt.sol
+Meng2025_TSMC,setb4xyt,948,948,FEASIBLE,882.0,yes,975,,meng2025_setb4xyt.sol
+Meng2025_TSMC,setb4xyzt,939,939,FEASIBLE,884.0,yes,968,,meng2025_setb4xyzt.sol
+Meng2025_TSMC,seti5c12t,1283,,NOT IN DOCX,1083.0,,1307,,
+Meng2025_TSMC,seti5cct,1261,1263,FEASIBLE,1051.0,yes,1287,"docx omits the transport of op (3,6) M7->M6 (travel time 0 in the 17-machine layout); without it the sequences give exactly 1261; with the transport inserted at the best AGV position: 1263 FEASIBLE (file *_REPAIRED_1263.sol)",meng2025_seti5cct_REPAIRED_1263.sol
+Meng2025_TSMC,seti5xt,1312,,NOT IN DOCX,1071.0,,1332,,
+Meng2025_TSMC,seti5xxt,1322,,NOT IN DOCX,1077.0,,1326,,
+Meng2025_TSMC,seti5xxxt,1318,1316,FEASIBLE,1073.0,yes,1330,"replay 1316 < claimed 1318 (claimed schedule not left-justified, or data differ)",meng2025_seti5xxxt.sol
+Meng2025_TSMC,seti5xyt,1258,,NOT IN DOCX,1047.0,,1285,,
+Meng2025_TSMC,seti5xyzt,1240,1240,FEASIBLE,1035.0,yes,1274,,meng2025_seti5xyzt.sol
+Han2024_DCGA,MFJST09,1103,1103,FEASIBLE,1075.0,yes,1090,,dcga2024_MFJST09.sol
+Han2024_DCGA,MFJST10,1227,1227,FEASIBLE,1106.0,yes,1244,,dcga2024_MFJST10.sol
+Han2024_DCGA,mt10xyzt,928,928,FEASIBLE,764.0,yes,922,,dcga2024_mt10xyzt.sol
+Han2024_DCGA,mt10xyt,959,959,FEASIBLE,782.0,yes,950,,dcga2024_mt10xyt.sol
+Han2024_DCGA,mt10xt,986,986,FEASIBLE,836.0,yes,987,,dcga2024_mt10xt.sol
+Han2024_DCGA,setb4xxt,1009,1009,FEASIBLE,882.0,yes,993,,dcga2024_setb4xxt.sol
+Han2024_DCGA,setb4xyzt,972,972,FEASIBLE,884.0,yes,968,,dcga2024_setb4xyzt.sol
+Han2024_DCGA,seti5cct,1334,1334,FEASIBLE,1051.0,yes,1287,,dcga2024_seti5cct.sol
+Han2024_DCGA,seti5xyzt,1305,1305,FEASIBLE,1035.0,yes,1274,,dcga2024_seti5xyzt.sol
+Han2024_DCGA,seti5xyt,1346,1346,FEASIBLE,1047.0,yes,1285,,dcga2024_seti5xyt.sol
+Han2024_DCGA,MKT02,124,124,FEASIBLE,120.0,yes,124,,dcga2024_MKT02.sol
+Han2024_DCGA,MKT03,322,322,FEASIBLE,258.0,yes,294,,dcga2024_MKT03.sol
+Han2024_DCGA,MKT05,290,,NOT REPLAYABLE (ineligible machine),285.0,,286,"Appendix A string puts op (13,5) on machine 1 (ineligible in HF2021 data); with M1 made eligible it gives exactly 290 (same data deviation as Meng 2025)",
+Han2024_DCGA,MKT06,300,300,FEASIBLE,245.0,yes,279.5,,dcga2024_MKT06.sol
+Han2024_DCGA,MKT07,260,260,FEASIBLE,228.0,yes,245,,dcga2024_MKT07.sol
+Han2024_DCGA,MKT08,757.5,757.5,FEASIBLE,662.5,yes,696,,dcga2024_MKT08.sol
+Han2024_DCGA,MKT09,663,663,FEASIBLE,566.5,yes,598,,dcga2024_MKT09.sol
+Han2024_DCGA,MKT10,549,549,FEASIBLE,459.5,yes,499,,dcga2024_MKT10.sol

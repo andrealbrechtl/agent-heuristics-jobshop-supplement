@@ -1,0 +1,23 @@
+{
+ "instance": "mt10xxt",
+ "variant": "sound",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "840",
+ "incumbent": "840",
+ "runtime": 0.03,
+ "nvars": 653,
+ "ncons": 711,
+ "u": 1,
+ "starts": {
+  "s_0": 1,
+  "s_1": 1
+ },
+ "ends": {
+  "f_8": 1,
+  "f_12": 1
+ },
+ "empty_into_0": 9,
+ "empty_time": "520"
+}

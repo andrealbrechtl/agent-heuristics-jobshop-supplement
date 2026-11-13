@@ -1,0 +1,1092 @@
+[
+ {
+  "instance": "behnke1",
+  "size": [
+   "10",
+   "20"
+  ],
+  "fjsplib_lb": 90,
+  "fjsplib_ub": 90,
+  "fjsplib_status": "closed",
+  "makespan": 90,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke2",
+  "size": [
+   "10",
+   "20"
+  ],
+  "fjsplib_lb": 91,
+  "fjsplib_ub": 91,
+  "fjsplib_status": "closed",
+  "makespan": 91,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke3",
+  "size": [
+   "10",
+   "20"
+  ],
+  "fjsplib_lb": 91,
+  "fjsplib_ub": 91,
+  "fjsplib_status": "closed",
+  "makespan": 91,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke4",
+  "size": [
+   "10",
+   "20"
+  ],
+  "fjsplib_lb": 97,
+  "fjsplib_ub": 97,
+  "fjsplib_status": "closed",
+  "makespan": 97,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke5",
+  "size": [
+   "10",
+   "20"
+  ],
+  "fjsplib_lb": 91,
+  "fjsplib_ub": 91,
+  "fjsplib_status": "closed",
+  "makespan": 91,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke6",
+  "size": [
+   "20",
+   "20"
+  ],
+  "fjsplib_lb": 125,
+  "fjsplib_ub": 125,
+  "fjsplib_status": "closed",
+  "makespan": 125,
+  "source": "lb/proofs/behnke6_T125/run_914_p0.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 623.6,
+   "threads": 6,
+   "limit_s": 900.0,
+   "cap": 125,
+   "pools": 0,
+   "ortools": "9.14"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke7",
+  "size": [
+   "20",
+   "20"
+  ],
+  "fjsplib_lb": 117,
+  "fjsplib_ub": 124,
+  "fjsplib_status": "open",
+  "makespan": 124,
+  "source": "runs/ub3/behnke7.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 912.924,
+   "threads": 8,
+   "limit_s": 1800.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke8",
+  "size": [
+   "20",
+   "20"
+  ],
+  "fjsplib_lb": 123,
+  "fjsplib_ub": 123,
+  "fjsplib_status": "closed",
+  "makespan": 123,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke9",
+  "size": [
+   "20",
+   "20"
+  ],
+  "fjsplib_lb": 125,
+  "fjsplib_ub": 125,
+  "fjsplib_status": "closed",
+  "makespan": 125,
+  "source": "cpsat120",
+  "run": {
+   "tool": "paper supplement: cpsat120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke10",
+  "size": [
+   "20",
+   "20"
+  ],
+  "fjsplib_lb": 127,
+  "fjsplib_ub": 127,
+  "fjsplib_status": "closed",
+  "makespan": 127,
+  "source": "rr_tabu120",
+  "run": {
+   "tool": "paper supplement: rr_tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke11",
+  "size": [
+   "50",
+   "20"
+  ],
+  "fjsplib_lb": 223,
+  "fjsplib_ub": 228,
+  "fjsplib_status": "open",
+  "makespan": 229,
+  "source": "runs/ub2/behnke11.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 1609.838,
+   "threads": 16,
+   "limit_s": 1800.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke12",
+  "size": [
+   "50",
+   "20"
+  ],
+  "fjsplib_lb": 213,
+  "fjsplib_ub": 219,
+  "fjsplib_status": "open",
+  "makespan": 219,
+  "source": "tabu1200",
+  "run": {
+   "tool": "paper supplement: tabu1200"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke13",
+  "size": [
+   "50",
+   "20"
+  ],
+  "fjsplib_lb": 223,
+  "fjsplib_ub": 229,
+  "fjsplib_status": "open",
+  "makespan": 227,
+  "source": "tabu1200",
+  "run": {
+   "tool": "paper supplement: tabu1200"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke14",
+  "size": [
+   "50",
+   "20"
+  ],
+  "fjsplib_lb": 221,
+  "fjsplib_ub": 230,
+  "fjsplib_status": "open",
+  "makespan": 228,
+  "source": "runs/ub3/behnke14.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 657.333,
+   "threads": 8,
+   "limit_s": 1800.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke15",
+  "size": [
+   "50",
+   "20"
+  ],
+  "fjsplib_lb": 219,
+  "fjsplib_ub": 228,
+  "fjsplib_status": "open",
+  "makespan": 228,
+  "source": "runs/ub3/behnke15.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 1227.493,
+   "threads": 8,
+   "limit_s": 1800.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke16",
+  "size": [
+   "100",
+   "20"
+  ],
+  "fjsplib_lb": 391,
+  "fjsplib_ub": 412,
+  "fjsplib_status": "open",
+  "makespan": 404,
+  "source": "agent404",
+  "run": {
+   "tool": "paper supplement: agent404"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke17",
+  "size": [
+   "100",
+   "20"
+  ],
+  "fjsplib_lb": 392,
+  "fjsplib_ub": 401,
+  "fjsplib_status": "open",
+  "makespan": 402,
+  "source": "runs/ub1/behnke17.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 297.138,
+   "threads": 8,
+   "limit_s": 600.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke18",
+  "size": [
+   "100",
+   "20"
+  ],
+  "fjsplib_lb": 390,
+  "fjsplib_ub": 396,
+  "fjsplib_status": "open",
+  "makespan": 400,
+  "source": "runs/ub2/behnke18.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 521.698,
+   "threads": 16,
+   "limit_s": 1800.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke19",
+  "size": [
+   "100",
+   "20"
+  ],
+  "fjsplib_lb": 395,
+  "fjsplib_ub": 400,
+  "fjsplib_status": "open",
+  "makespan": 402,
+  "source": "runs/ub1/behnke19.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 131.521,
+   "threads": 8,
+   "limit_s": 600.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke20",
+  "size": [
+   "100",
+   "20"
+  ],
+  "fjsplib_lb": 391,
+  "fjsplib_ub": 398,
+  "fjsplib_status": "open",
+  "makespan": 399,
+  "source": "runs/ub1/behnke20.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 532.91,
+   "threads": 8,
+   "limit_s": 600.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke21",
+  "size": [
+   "10",
+   "40"
+  ],
+  "fjsplib_lb": 85,
+  "fjsplib_ub": 85,
+  "fjsplib_status": "closed",
+  "makespan": 85,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke22",
+  "size": [
+   "10",
+   "40"
+  ],
+  "fjsplib_lb": 87,
+  "fjsplib_ub": 87,
+  "fjsplib_status": "closed",
+  "makespan": 87,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke23",
+  "size": [
+   "10",
+   "40"
+  ],
+  "fjsplib_lb": 85,
+  "fjsplib_ub": 85,
+  "fjsplib_status": "closed",
+  "makespan": 85,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke24",
+  "size": [
+   "10",
+   "40"
+  ],
+  "fjsplib_lb": 87,
+  "fjsplib_ub": 87,
+  "fjsplib_status": "closed",
+  "makespan": 87,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke25",
+  "size": [
+   "10",
+   "40"
+  ],
+  "fjsplib_lb": 87,
+  "fjsplib_ub": 87,
+  "fjsplib_status": "closed",
+  "makespan": 87,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke26",
+  "size": [
+   "20",
+   "40"
+  ],
+  "fjsplib_lb": 113,
+  "fjsplib_ub": 113,
+  "fjsplib_status": "closed",
+  "makespan": 113,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke27",
+  "size": [
+   "20",
+   "40"
+  ],
+  "fjsplib_lb": 122,
+  "fjsplib_ub": 122,
+  "fjsplib_status": "closed",
+  "makespan": 122,
+  "source": "lb/runs/full600/behnke27.sched",
+  "run": {
+   "tool": "CP-SAT minimize",
+   "time_s": 389.6,
+   "threads": 8,
+   "limit_s": 600.0,
+   "cap": 123,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke28",
+  "size": [
+   "20",
+   "40"
+  ],
+  "fjsplib_lb": 114,
+  "fjsplib_ub": 114,
+  "fjsplib_status": "closed",
+  "makespan": 114,
+  "source": "cpsat120",
+  "run": {
+   "tool": "paper supplement: cpsat120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke29",
+  "size": [
+   "20",
+   "40"
+  ],
+  "fjsplib_lb": 116,
+  "fjsplib_ub": 117,
+  "fjsplib_status": "open",
+  "makespan": 117,
+  "source": "rr_tabu120",
+  "run": {
+   "tool": "paper supplement: rr_tabu120"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke30",
+  "size": [
+   "20",
+   "40"
+  ],
+  "fjsplib_lb": 120,
+  "fjsplib_ub": 120,
+  "fjsplib_status": "closed",
+  "makespan": 120,
+  "source": "lb/runs/full600/behnke30.sched",
+  "run": {
+   "tool": "CP-SAT minimize",
+   "time_s": 494.2,
+   "threads": 8,
+   "limit_s": 600.0,
+   "cap": 121,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke31",
+  "size": [
+   "50",
+   "40"
+  ],
+  "fjsplib_lb": 226,
+  "fjsplib_ub": 226,
+  "fjsplib_status": "closed",
+  "makespan": 226,
+  "source": "seed44",
+  "run": {
+   "tool": "paper supplement: seed44"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke32",
+  "size": [
+   "50",
+   "40"
+  ],
+  "fjsplib_lb": 220,
+  "fjsplib_ub": 224,
+  "fjsplib_status": "open",
+  "makespan": 220,
+  "source": "lb/proofs/behnke32_T220/run_915_p1.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 413.2,
+   "threads": 6,
+   "limit_s": 900.0,
+   "cap": 220,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke33",
+  "size": [
+   "50",
+   "40"
+  ],
+  "fjsplib_lb": 223,
+  "fjsplib_ub": 224,
+  "fjsplib_status": "open",
+  "makespan": 224,
+  "source": "lb/runs/full600/behnke33.sched",
+  "run": {
+   "tool": "CP-SAT minimize",
+   "time_s": 141.3,
+   "threads": 8,
+   "limit_s": 600.0,
+   "cap": 225,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke34",
+  "size": [
+   "50",
+   "40"
+  ],
+  "fjsplib_lb": 219,
+  "fjsplib_ub": 223,
+  "fjsplib_status": "open",
+  "makespan": 219,
+  "source": "lb/proofs/behnke34_T219/run_915_p1.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 39.7,
+   "threads": 6,
+   "limit_s": 900.0,
+   "cap": 219,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke35",
+  "size": [
+   "50",
+   "40"
+  ],
+  "fjsplib_lb": 211,
+  "fjsplib_ub": 214,
+  "fjsplib_status": "open",
+  "makespan": 213,
+  "source": "tabu1200",
+  "run": {
+   "tool": "paper supplement: tabu1200"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke36",
+  "size": [
+   "100",
+   "40"
+  ],
+  "fjsplib_lb": 381,
+  "fjsplib_ub": 388,
+  "fjsplib_status": "open",
+  "makespan": 386,
+  "source": "runs/ub3/behnke36.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 836.607,
+   "threads": 8,
+   "limit_s": 1800.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke37",
+  "size": [
+   "100",
+   "40"
+  ],
+  "fjsplib_lb": 387,
+  "fjsplib_ub": 391,
+  "fjsplib_status": "open",
+  "makespan": 391,
+  "source": "runs/ub1/behnke37.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 481.077,
+   "threads": 8,
+   "limit_s": 600.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke38",
+  "size": [
+   "100",
+   "40"
+  ],
+  "fjsplib_lb": 386,
+  "fjsplib_ub": 389,
+  "fjsplib_status": "open",
+  "makespan": 387,
+  "source": "lb/proofs/behnke38_T387/run_914_p1.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 371.1,
+   "threads": 4,
+   "limit_s": 1200.0,
+   "cap": 387,
+   "pools": 1,
+   "ortools": "9.14"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke39",
+  "size": [
+   "100",
+   "40"
+  ],
+  "fjsplib_lb": 384,
+  "fjsplib_ub": 389,
+  "fjsplib_status": "open",
+  "makespan": 387,
+  "source": "runs/ub2/behnke39.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 357.634,
+   "threads": 16,
+   "limit_s": 1800.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke40",
+  "size": [
+   "100",
+   "40"
+  ],
+  "fjsplib_lb": 415,
+  "fjsplib_ub": 419,
+  "fjsplib_status": "open",
+  "makespan": 415,
+  "source": "lb/proofs/behnke40_T415/run_914_p1.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 595.0,
+   "threads": 4,
+   "limit_s": 1200.0,
+   "cap": 415,
+   "pools": 1,
+   "ortools": "9.14"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke41",
+  "size": [
+   "10",
+   "60"
+  ],
+  "fjsplib_lb": 87,
+  "fjsplib_ub": 87,
+  "fjsplib_status": "closed",
+  "makespan": 87,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke42",
+  "size": [
+   "10",
+   "60"
+  ],
+  "fjsplib_lb": 87,
+  "fjsplib_ub": 87,
+  "fjsplib_status": "closed",
+  "makespan": 87,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke43",
+  "size": [
+   "10",
+   "60"
+  ],
+  "fjsplib_lb": 86,
+  "fjsplib_ub": 86,
+  "fjsplib_status": "closed",
+  "makespan": 86,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke44",
+  "size": [
+   "10",
+   "60"
+  ],
+  "fjsplib_lb": 84,
+  "fjsplib_ub": 84,
+  "fjsplib_status": "closed",
+  "makespan": 84,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke45",
+  "size": [
+   "10",
+   "60"
+  ],
+  "fjsplib_lb": 87,
+  "fjsplib_ub": 87,
+  "fjsplib_status": "closed",
+  "makespan": 87,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke46",
+  "size": [
+   "20",
+   "60"
+  ],
+  "fjsplib_lb": 114,
+  "fjsplib_ub": 114,
+  "fjsplib_status": "closed",
+  "makespan": 114,
+  "source": "lb/runs/full600/behnke46.sched",
+  "run": {
+   "tool": "CP-SAT minimize",
+   "time_s": 35.0,
+   "threads": 8,
+   "limit_s": 600.0,
+   "cap": 115,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke47",
+  "size": [
+   "20",
+   "60"
+  ],
+  "fjsplib_lb": 117,
+  "fjsplib_ub": 117,
+  "fjsplib_status": "closed",
+  "makespan": 117,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke48",
+  "size": [
+   "20",
+   "60"
+  ],
+  "fjsplib_lb": 124,
+  "fjsplib_ub": 125,
+  "fjsplib_status": "open",
+  "makespan": 125,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke49",
+  "size": [
+   "20",
+   "60"
+  ],
+  "fjsplib_lb": 113,
+  "fjsplib_ub": 113,
+  "fjsplib_status": "closed",
+  "makespan": 113,
+  "source": "cpsat120",
+  "run": {
+   "tool": "paper supplement: cpsat120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke50",
+  "size": [
+   "20",
+   "60"
+  ],
+  "fjsplib_lb": 123,
+  "fjsplib_ub": 123,
+  "fjsplib_status": "closed",
+  "makespan": 123,
+  "source": "cpsat120",
+  "run": {
+   "tool": "paper supplement: cpsat120"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke51",
+  "size": [
+   "50",
+   "60"
+  ],
+  "fjsplib_lb": 215,
+  "fjsplib_ub": 218,
+  "fjsplib_status": "open",
+  "makespan": 218,
+  "source": "lb/runs/full600/behnke51.sched",
+  "run": {
+   "tool": "CP-SAT minimize",
+   "time_s": 600.3,
+   "threads": 8,
+   "limit_s": 600.0,
+   "cap": 219,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke52",
+  "size": [
+   "50",
+   "60"
+  ],
+  "fjsplib_lb": 210,
+  "fjsplib_ub": 212,
+  "fjsplib_status": "open",
+  "makespan": 211,
+  "source": "lb/proofs/behnke52_T211/run_915_p1.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 395.2,
+   "threads": 6,
+   "limit_s": 900.0,
+   "cap": 211,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke53",
+  "size": [
+   "50",
+   "60"
+  ],
+  "fjsplib_lb": 211,
+  "fjsplib_ub": 215,
+  "fjsplib_status": "open",
+  "makespan": 212,
+  "source": "cpsat120",
+  "run": {
+   "tool": "paper supplement: cpsat120"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke54",
+  "size": [
+   "50",
+   "60"
+  ],
+  "fjsplib_lb": 221,
+  "fjsplib_ub": 223,
+  "fjsplib_status": "open",
+  "makespan": 224,
+  "source": "lb/runs/full600/behnke54.sched",
+  "run": {
+   "tool": "CP-SAT minimize",
+   "time_s": 600.4,
+   "threads": 8,
+   "limit_s": 600.0,
+   "cap": 225,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke55",
+  "size": [
+   "50",
+   "60"
+  ],
+  "fjsplib_lb": 221,
+  "fjsplib_ub": 223,
+  "fjsplib_status": "open",
+  "makespan": 221,
+  "source": "lb/runs/full600/behnke55.sched",
+  "run": {
+   "tool": "CP-SAT minimize",
+   "time_s": 124.4,
+   "threads": 8,
+   "limit_s": 600.0,
+   "cap": 222,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke56",
+  "size": [
+   "100",
+   "60"
+  ],
+  "fjsplib_lb": 384,
+  "fjsplib_ub": 390,
+  "fjsplib_status": "open",
+  "makespan": 384,
+  "source": "runs/find/behnke56_T384.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 647.6,
+   "threads": 4,
+   "limit_s": 1200.0,
+   "cap": 384,
+   "pools": 1,
+   "ortools": "9.14"
+  },
+  "closed": true
+ },
+ {
+  "instance": "behnke57",
+  "size": [
+   "100",
+   "60"
+  ],
+  "fjsplib_lb": 385,
+  "fjsplib_ub": 390,
+  "fjsplib_status": "open",
+  "makespan": 386,
+  "source": "runs/ub1/behnke57.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 521.352,
+   "threads": 8,
+   "limit_s": 600.0
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke58",
+  "size": [
+   "100",
+   "60"
+  ],
+  "fjsplib_lb": 392,
+  "fjsplib_ub": 397,
+  "fjsplib_status": "open",
+  "makespan": 394,
+  "source": "runs/ub3/behnke58.sched",
+  "run": {
+   "tool": "fjsp_ls3",
+   "time_s": 627.226,
+   "threads": 8,
+   "limit_s": 1800.0,
+   "note": "run stopped by hand at 12:08 before its limit; schedule checkpointed at 627 s"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke59",
+  "size": [
+   "100",
+   "60"
+  ],
+  "fjsplib_lb": 392,
+  "fjsplib_ub": 398,
+  "fjsplib_status": "open",
+  "makespan": 394,
+  "source": "tabu120",
+  "run": {
+   "tool": "paper supplement: tabu120"
+  },
+  "closed": false
+ },
+ {
+  "instance": "behnke60",
+  "size": [
+   "100",
+   "60"
+  ],
+  "fjsplib_lb": 397,
+  "fjsplib_ub": 402,
+  "fjsplib_status": "open",
+  "makespan": 397,
+  "source": "lb/proofs/behnke60_T397/run_915_p1.sched",
+  "run": {
+   "tool": "CP-SAT feasibility",
+   "time_s": 449.8,
+   "threads": 4,
+   "limit_s": 1200.0,
+   "cap": 397,
+   "pools": 1,
+   "ortools": "9.15"
+  },
+  "closed": true
+ }
+]

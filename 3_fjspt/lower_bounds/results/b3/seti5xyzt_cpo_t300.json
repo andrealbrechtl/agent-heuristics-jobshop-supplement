@@ -1,0 +1,10 @@
+{
+ "instance": "seti5xyzt",
+ "solver": "cpo",
+ "status": "Optimal",
+ "optimal": true,
+ "lb": "1190",
+ "incumbent": "1190",
+ "runtime": 38.1,
+ "hinted": true
+}

@@ -1,0 +1,21 @@
+{
+ "instance": "MFJST09",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "980",
+ "incumbent": "980",
+ "runtime": 0.22,
+ "nvars": 531,
+ "ncons": 490,
+ "u": 1,
+ "starts": {
+  "s_2": 2
+ },
+ "ends": {
+  "f_7": 2
+ },
+ "empty_into_0": 11,
+ "empty_time": "236"
+}

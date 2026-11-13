@@ -1,0 +1,22 @@
+{
+ "instance": "setb4c9t",
+ "variant": "force",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "884",
+ "incumbent": "884",
+ "runtime": 0.02,
+ "nvars": 795,
+ "ncons": 977,
+ "u": 1,
+ "starts": {
+  "s_1": 2
+ },
+ "ends": {
+  "f_4": 1,
+  "f_10": 1
+ },
+ "empty_into_0": 15,
+ "empty_time": "762"
+}

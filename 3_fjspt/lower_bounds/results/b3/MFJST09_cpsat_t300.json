@@ -1,0 +1,10 @@
+{
+ "instance": "MFJST09",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "1075",
+ "incumbent": "1075",
+ "runtime": 11.46,
+ "hinted": true
+}

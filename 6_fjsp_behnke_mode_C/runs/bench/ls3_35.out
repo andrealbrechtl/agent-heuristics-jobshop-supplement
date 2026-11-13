@@ -1,0 +1,13 @@
+[parse] behnke35: 50 jobs x 40 machines, 250 ops, machine base 1; stage A yes (4 machines), stage C yes (4 machines)
+[    0.00s] makespan 222 (worker 0)
+[    0.04s] makespan 220 (worker 0)
+[    0.38s] makespan 219 (worker 1)
+[    0.40s] makespan 218 (worker 1)
+[    0.52s] makespan 217 (worker 0)
+[    3.90s] makespan 216 (worker 1)
+[   20.27s] makespan 215 (worker 1)
+final best 215
+instance behnke35
+best_makespan 215
+threads 4
+limit 150

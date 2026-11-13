@@ -1,0 +1,3272 @@
+[
+ {
+  "instance": "tai_100_1000_1",
+  "run": 1,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 525581,
+  "best_worker": 11,
+  "best_seed": 1011,
+  "time_to_best_s": 1741.0,
+  "solution": "solutions/tai_100_1000_1_r1_525581.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 526000,
+    "time_to_best_s": 487.6
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 526000,
+    "time_to_best_s": 469.9
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 526000,
+    "time_to_best_s": 695.0
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 526004,
+    "time_to_best_s": 1487.4
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 525861,
+    "time_to_best_s": 910.3
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 526152,
+    "time_to_best_s": 1065.7
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 525972,
+    "time_to_best_s": 939.0
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 525601,
+    "time_to_best_s": 1714.1
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 526285,
+    "time_to_best_s": 870.7
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 526000,
+    "time_to_best_s": 480.5
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 525581,
+    "time_to_best_s": 1741.0
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 526000,
+    "time_to_best_s": 774.4
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 526000,
+    "time_to_best_s": 540.8
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 526000,
+    "time_to_best_s": 573.4
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 526199,
+    "time_to_best_s": 1243.3
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 525843,
+    "time_to_best_s": 1371.0
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_1",
+  "run": 2,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 525515,
+  "best_worker": 6,
+  "best_seed": 2006,
+  "time_to_best_s": 1769.2,
+  "solution": "solutions/tai_100_1000_1_r2_525515.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 525767,
+    "time_to_best_s": 1774.6
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 525891,
+    "time_to_best_s": 1511.6
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 526032,
+    "time_to_best_s": 988.6
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 526070,
+    "time_to_best_s": 1266.6
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 526000,
+    "time_to_best_s": 466.4
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 525515,
+    "time_to_best_s": 1769.2
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 526000,
+    "time_to_best_s": 472.3
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 525741,
+    "time_to_best_s": 1796.1
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 525969,
+    "time_to_best_s": 1371.1
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 525818,
+    "time_to_best_s": 1112.1
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 526000,
+    "time_to_best_s": 709.1
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 526000,
+    "time_to_best_s": 415.6
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 525723,
+    "time_to_best_s": 1154.7
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 525765,
+    "time_to_best_s": 1768.6
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 526000,
+    "time_to_best_s": 536.5
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 526000,
+    "time_to_best_s": 639.7
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_1",
+  "run": 3,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 525696,
+  "best_worker": 15,
+  "best_seed": 3015,
+  "time_to_best_s": 1306.1,
+  "solution": "solutions/tai_100_1000_1_r3_525696.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 526917,
+    "time_to_best_s": 810.2
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 526000,
+    "time_to_best_s": 498.8
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 526282,
+    "time_to_best_s": 1633.4
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 526000,
+    "time_to_best_s": 582.2
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 526000,
+    "time_to_best_s": 477.9
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 525850,
+    "time_to_best_s": 1076.4
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 526492,
+    "time_to_best_s": 696.2
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 526000,
+    "time_to_best_s": 563.5
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 526000,
+    "time_to_best_s": 1007.6
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 525727,
+    "time_to_best_s": 1657.5
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 526000,
+    "time_to_best_s": 514.9
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 526348,
+    "time_to_best_s": 1112.7
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 526095,
+    "time_to_best_s": 1168.7
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 525981,
+    "time_to_best_s": 1520.9
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 525696,
+    "time_to_best_s": 1306.1
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 525924,
+    "time_to_best_s": 1137.2
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_2",
+  "run": 1,
+  "start_target": 541000,
+  "seconds": 1800,
+  "best": 530375,
+  "best_worker": 2,
+  "best_seed": 1002,
+  "time_to_best_s": 646.1,
+  "solution": "solutions/tai_100_1000_2_r1_530375.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 530375,
+    "time_to_best_s": 1529.5
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 530375,
+    "time_to_best_s": 646.1
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 532383,
+    "time_to_best_s": 1572.9
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 531720,
+    "time_to_best_s": 1599.8
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 533027,
+    "time_to_best_s": 1449.2
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 532000,
+    "time_to_best_s": 654.0
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 533158,
+    "time_to_best_s": 1666.1
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 530375,
+    "time_to_best_s": 1390.7
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 530375,
+    "time_to_best_s": 1208.2
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 530375,
+    "time_to_best_s": 1276.0
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 530375,
+    "time_to_best_s": 871.9
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 533000,
+    "time_to_best_s": 458.1
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 532642,
+    "time_to_best_s": 1695.1
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 531716,
+    "time_to_best_s": 1611.7
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 531629,
+    "time_to_best_s": 1691.1
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 532999,
+    "time_to_best_s": 449.9
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_2",
+  "run": 2,
+  "start_target": 541000,
+  "seconds": 1800,
+  "best": 530375,
+  "best_worker": 10,
+  "best_seed": 2010,
+  "time_to_best_s": 628.1,
+  "solution": "solutions/tai_100_1000_2_r2_530375.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 530375,
+    "time_to_best_s": 1355.4
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 531000,
+    "time_to_best_s": 757.2
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 530375,
+    "time_to_best_s": 1129.7
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 532000,
+    "time_to_best_s": 659.9
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 531004,
+    "time_to_best_s": 1339.4
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 531604,
+    "time_to_best_s": 1793.5
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 531596,
+    "time_to_best_s": 1289.5
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 531000,
+    "time_to_best_s": 448.5
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 531708,
+    "time_to_best_s": 1593.8
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 530375,
+    "time_to_best_s": 628.1
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 532112,
+    "time_to_best_s": 1718.9
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 533000,
+    "time_to_best_s": 481.6
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 533000,
+    "time_to_best_s": 435.5
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 530375,
+    "time_to_best_s": 986.0
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 533399,
+    "time_to_best_s": 1180.7
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 532392,
+    "time_to_best_s": 1279.8
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_2",
+  "run": 3,
+  "start_target": 541000,
+  "seconds": 1800,
+  "best": 530375,
+  "best_worker": 10,
+  "best_seed": 3010,
+  "time_to_best_s": 570.6,
+  "solution": "solutions/tai_100_1000_2_r3_530375.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 530375,
+    "time_to_best_s": 1241.8
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 530375,
+    "time_to_best_s": 1012.4
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 531392,
+    "time_to_best_s": 1204.6
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 530375,
+    "time_to_best_s": 886.2
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 530375,
+    "time_to_best_s": 616.2
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 530375,
+    "time_to_best_s": 1088.4
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 530375,
+    "time_to_best_s": 953.0
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 531578,
+    "time_to_best_s": 1509.2
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 530375,
+    "time_to_best_s": 778.9
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 530375,
+    "time_to_best_s": 570.6
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 530375,
+    "time_to_best_s": 1414.7
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 533000,
+    "time_to_best_s": 660.5
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 530375,
+    "time_to_best_s": 972.6
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 531685,
+    "time_to_best_s": 1270.9
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 531711,
+    "time_to_best_s": 1654.3
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 530375,
+    "time_to_best_s": 1453.3
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_3",
+  "run": 1,
+  "start_target": 542000,
+  "seconds": 1800,
+  "best": 530560,
+  "best_worker": 13,
+  "best_seed": 1013,
+  "time_to_best_s": 182.7,
+  "solution": "solutions/tai_100_1000_3_r1_530560.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 530560,
+    "time_to_best_s": 271.6
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 530560,
+    "time_to_best_s": 336.5
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 530560,
+    "time_to_best_s": 309.9
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 530560,
+    "time_to_best_s": 354.2
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 530560,
+    "time_to_best_s": 309.7
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 530560,
+    "time_to_best_s": 550.4
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 530999,
+    "time_to_best_s": 644.0
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 530963,
+    "time_to_best_s": 716.7
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 530560,
+    "time_to_best_s": 228.9
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 530560,
+    "time_to_best_s": 302.4
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 530560,
+    "time_to_best_s": 318.6
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 530560,
+    "time_to_best_s": 540.4
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 530560,
+    "time_to_best_s": 182.7
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 530560,
+    "time_to_best_s": 483.4
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 530560,
+    "time_to_best_s": 303.1
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 530560,
+    "time_to_best_s": 583.0
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_3",
+  "run": 2,
+  "start_target": 542000,
+  "seconds": 1800,
+  "best": 530560,
+  "best_worker": 8,
+  "best_seed": 2008,
+  "time_to_best_s": 225.8,
+  "solution": "solutions/tai_100_1000_3_r2_530560.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 530560,
+    "time_to_best_s": 344.0
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 530560,
+    "time_to_best_s": 455.2
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 530560,
+    "time_to_best_s": 314.9
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 530560,
+    "time_to_best_s": 1012.0
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 530799,
+    "time_to_best_s": 1213.6
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 530560,
+    "time_to_best_s": 235.8
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 530560,
+    "time_to_best_s": 487.4
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 530560,
+    "time_to_best_s": 225.8
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 530560,
+    "time_to_best_s": 384.7
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 530560,
+    "time_to_best_s": 372.4
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 530560,
+    "time_to_best_s": 392.2
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 530560,
+    "time_to_best_s": 290.2
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 530560,
+    "time_to_best_s": 232.9
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 530560,
+    "time_to_best_s": 740.4
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 530560,
+    "time_to_best_s": 261.7
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 530560,
+    "time_to_best_s": 1489.9
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_3",
+  "run": 3,
+  "start_target": 542000,
+  "seconds": 1800,
+  "best": 530560,
+  "best_worker": 11,
+  "best_seed": 3011,
+  "time_to_best_s": 187.4,
+  "solution": "solutions/tai_100_1000_3_r3_530560.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 530560,
+    "time_to_best_s": 206.2
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 530560,
+    "time_to_best_s": 382.3
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 530560,
+    "time_to_best_s": 292.3
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 530560,
+    "time_to_best_s": 375.9
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 530560,
+    "time_to_best_s": 631.8
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 530560,
+    "time_to_best_s": 372.0
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 530560,
+    "time_to_best_s": 811.0
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 530942,
+    "time_to_best_s": 828.0
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 530560,
+    "time_to_best_s": 530.7
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 530560,
+    "time_to_best_s": 766.1
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 530560,
+    "time_to_best_s": 187.4
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 530560,
+    "time_to_best_s": 272.2
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 530560,
+    "time_to_best_s": 304.3
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 530560,
+    "time_to_best_s": 273.7
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 530560,
+    "time_to_best_s": 1358.3
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 530560,
+    "time_to_best_s": 304.3
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_4",
+  "run": 1,
+  "start_target": 538000,
+  "seconds": 1800,
+  "best": 528702,
+  "best_worker": 9,
+  "best_seed": 1009,
+  "time_to_best_s": 1739.0,
+  "solution": "solutions/tai_100_1000_4_r1_528702.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 531241,
+    "time_to_best_s": 1539.8
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 529000,
+    "time_to_best_s": 535.4
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 529000,
+    "time_to_best_s": 527.6
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 529000,
+    "time_to_best_s": 892.6
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 530633,
+    "time_to_best_s": 1796.9
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 530000,
+    "time_to_best_s": 334.4
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 531097,
+    "time_to_best_s": 764.4
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 530610,
+    "time_to_best_s": 1153.2
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 528702,
+    "time_to_best_s": 1739.0
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 529432,
+    "time_to_best_s": 1364.5
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 530137,
+    "time_to_best_s": 628.8
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 530000,
+    "time_to_best_s": 835.2
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 530563,
+    "time_to_best_s": 1524.5
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 529235,
+    "time_to_best_s": 1781.5
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 529675,
+    "time_to_best_s": 1346.1
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 530144,
+    "time_to_best_s": 1041.2
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_4",
+  "run": 2,
+  "start_target": 538000,
+  "seconds": 1800,
+  "best": 528758,
+  "best_worker": 3,
+  "best_seed": 2003,
+  "time_to_best_s": 1335.2,
+  "solution": "solutions/tai_100_1000_4_r2_528758.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 530000,
+    "time_to_best_s": 1007.2
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 530695,
+    "time_to_best_s": 888.8
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 528758,
+    "time_to_best_s": 1335.2
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 530000,
+    "time_to_best_s": 1078.5
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 530000,
+    "time_to_best_s": 818.5
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 529330,
+    "time_to_best_s": 1309.7
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 529388,
+    "time_to_best_s": 1493.6
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 529559,
+    "time_to_best_s": 1169.2
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 529164,
+    "time_to_best_s": 1106.5
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 529922,
+    "time_to_best_s": 1610.3
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 530691,
+    "time_to_best_s": 1030.6
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 528999,
+    "time_to_best_s": 1233.3
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 531202,
+    "time_to_best_s": 567.9
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 529273,
+    "time_to_best_s": 1483.6
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 529000,
+    "time_to_best_s": 399.1
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 530261,
+    "time_to_best_s": 1517.3
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_4",
+  "run": 3,
+  "start_target": 538000,
+  "seconds": 1800,
+  "best": 528156,
+  "best_worker": 4,
+  "best_seed": 3004,
+  "time_to_best_s": 1593.5,
+  "solution": "solutions/tai_100_1000_4_r3_528156.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 529000,
+    "time_to_best_s": 656.7
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 529513,
+    "time_to_best_s": 1487.3
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 529157,
+    "time_to_best_s": 1287.3
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 528156,
+    "time_to_best_s": 1593.5
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 529000,
+    "time_to_best_s": 924.8
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 530172,
+    "time_to_best_s": 735.2
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 529588,
+    "time_to_best_s": 1150.0
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 529983,
+    "time_to_best_s": 866.4
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 528999,
+    "time_to_best_s": 521.4
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 530215,
+    "time_to_best_s": 1711.4
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 529029,
+    "time_to_best_s": 1099.6
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 530000,
+    "time_to_best_s": 913.9
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 529271,
+    "time_to_best_s": 1680.5
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 530043,
+    "time_to_best_s": 1491.6
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 528234,
+    "time_to_best_s": 1656.7
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 529999,
+    "time_to_best_s": 495.2
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_5",
+  "run": 1,
+  "start_target": 529000,
+  "seconds": 1800,
+  "best": 525865,
+  "best_worker": 15,
+  "best_seed": 1015,
+  "time_to_best_s": 1217.3,
+  "solution": "solutions/tai_100_1000_5_r1_525865.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 526203,
+    "time_to_best_s": 1037.2
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 526318,
+    "time_to_best_s": 1641.9
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 526712,
+    "time_to_best_s": 874.1
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 526739,
+    "time_to_best_s": 954.4
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 526317,
+    "time_to_best_s": 1348.7
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 527000,
+    "time_to_best_s": 383.1
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 526565,
+    "time_to_best_s": 1410.9
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 526594,
+    "time_to_best_s": 1505.3
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 527000,
+    "time_to_best_s": 309.6
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 526220,
+    "time_to_best_s": 1115.0
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 526066,
+    "time_to_best_s": 1701.3
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 527000,
+    "time_to_best_s": 264.6
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 526365,
+    "time_to_best_s": 1542.5
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 526169,
+    "time_to_best_s": 930.9
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 525865,
+    "time_to_best_s": 1217.3
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 527000,
+    "time_to_best_s": 398.7
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_5",
+  "run": 2,
+  "start_target": 529000,
+  "seconds": 1800,
+  "best": 526000,
+  "best_worker": 7,
+  "best_seed": 2007,
+  "time_to_best_s": 1143.6,
+  "solution": "solutions/tai_100_1000_5_r2_526000.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 527093,
+    "time_to_best_s": 931.8
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 526758,
+    "time_to_best_s": 968.5
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 526225,
+    "time_to_best_s": 945.8
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 526395,
+    "time_to_best_s": 1598.7
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 526376,
+    "time_to_best_s": 1766.9
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 527000,
+    "time_to_best_s": 164.3
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 526000,
+    "time_to_best_s": 1143.6
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 527000,
+    "time_to_best_s": 353.3
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 526697,
+    "time_to_best_s": 1774.5
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 526816,
+    "time_to_best_s": 891.1
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 526664,
+    "time_to_best_s": 1393.5
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 526781,
+    "time_to_best_s": 818.2
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 526389,
+    "time_to_best_s": 1055.7
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 526153,
+    "time_to_best_s": 974.6
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 527000,
+    "time_to_best_s": 236.0
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 526405,
+    "time_to_best_s": 1151.9
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_5",
+  "run": 3,
+  "start_target": 529000,
+  "seconds": 1800,
+  "best": 526117,
+  "best_worker": 1,
+  "best_seed": 3001,
+  "time_to_best_s": 1694.9,
+  "solution": "solutions/tai_100_1000_5_r3_526117.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 526117,
+    "time_to_best_s": 1694.9
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 526648,
+    "time_to_best_s": 758.6
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 526949,
+    "time_to_best_s": 1577.9
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 526142,
+    "time_to_best_s": 1069.0
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 526801,
+    "time_to_best_s": 897.9
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 526589,
+    "time_to_best_s": 1552.9
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 526473,
+    "time_to_best_s": 1697.0
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 527000,
+    "time_to_best_s": 288.6
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 526613,
+    "time_to_best_s": 1672.1
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 526637,
+    "time_to_best_s": 1777.9
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 526820,
+    "time_to_best_s": 1275.3
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 527000,
+    "time_to_best_s": 207.4
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 527000,
+    "time_to_best_s": 313.8
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 527000,
+    "time_to_best_s": 298.4
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 526983,
+    "time_to_best_s": 1442.5
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 526479,
+    "time_to_best_s": 1022.4
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_6",
+  "run": 1,
+  "start_target": 534000,
+  "seconds": 1800,
+  "best": 524812,
+  "best_worker": 14,
+  "best_seed": 1014,
+  "time_to_best_s": 1752.4,
+  "solution": "solutions/tai_100_1000_6_r1_524812.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 525651,
+    "time_to_best_s": 1180.4
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 525000,
+    "time_to_best_s": 986.5
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 525999,
+    "time_to_best_s": 810.5
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 524980,
+    "time_to_best_s": 1504.6
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 525000,
+    "time_to_best_s": 935.4
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 525967,
+    "time_to_best_s": 1748.3
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 526000,
+    "time_to_best_s": 346.3
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 526000,
+    "time_to_best_s": 652.1
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 525874,
+    "time_to_best_s": 1425.8
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 526000,
+    "time_to_best_s": 362.8
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 525000,
+    "time_to_best_s": 778.5
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 525000,
+    "time_to_best_s": 944.9
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 525415,
+    "time_to_best_s": 1238.2
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 524812,
+    "time_to_best_s": 1752.4
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 526000,
+    "time_to_best_s": 480.6
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 525632,
+    "time_to_best_s": 1352.3
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_6",
+  "run": 2,
+  "start_target": 534000,
+  "seconds": 1800,
+  "best": 525000,
+  "best_worker": 10,
+  "best_seed": 2010,
+  "time_to_best_s": 1086.4,
+  "solution": "solutions/tai_100_1000_6_r2_525000.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 526443,
+    "time_to_best_s": 1535.3
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 525000,
+    "time_to_best_s": 1158.6
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 525000,
+    "time_to_best_s": 1741.4
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 526343,
+    "time_to_best_s": 1198.1
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 526000,
+    "time_to_best_s": 544.5
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 526000,
+    "time_to_best_s": 779.8
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 526000,
+    "time_to_best_s": 726.3
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 525824,
+    "time_to_best_s": 1725.8
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 526000,
+    "time_to_best_s": 681.5
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 525000,
+    "time_to_best_s": 1086.4
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 526000,
+    "time_to_best_s": 756.5
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 525992,
+    "time_to_best_s": 1275.9
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 526000,
+    "time_to_best_s": 670.5
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 525531,
+    "time_to_best_s": 1279.0
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 525867,
+    "time_to_best_s": 1567.2
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 525000,
+    "time_to_best_s": 1350.2
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_6",
+  "run": 3,
+  "start_target": 534000,
+  "seconds": 1800,
+  "best": 525000,
+  "best_worker": 11,
+  "best_seed": 3011,
+  "time_to_best_s": 973.2,
+  "solution": "solutions/tai_100_1000_6_r3_525000.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 525849,
+    "time_to_best_s": 1183.3
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 525616,
+    "time_to_best_s": 1436.2
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 526000,
+    "time_to_best_s": 472.3
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 525571,
+    "time_to_best_s": 1304.5
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 526000,
+    "time_to_best_s": 856.4
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 525477,
+    "time_to_best_s": 1259.0
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 526000,
+    "time_to_best_s": 382.7
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 525000,
+    "time_to_best_s": 1372.1
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 525336,
+    "time_to_best_s": 1354.4
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 526000,
+    "time_to_best_s": 844.1
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 525000,
+    "time_to_best_s": 973.2
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 526000,
+    "time_to_best_s": 913.6
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 525918,
+    "time_to_best_s": 861.3
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 526688,
+    "time_to_best_s": 1181.4
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 525199,
+    "time_to_best_s": 1452.4
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 525906,
+    "time_to_best_s": 1215.3
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_7",
+  "run": 1,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 527000,
+  "best_worker": 14,
+  "best_seed": 1014,
+  "time_to_best_s": 779.9,
+  "solution": "solutions/tai_100_1000_7_r1_527000.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 528000,
+    "time_to_best_s": 860.9
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 528381,
+    "time_to_best_s": 1470.6
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 528308,
+    "time_to_best_s": 1236.7
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 528000,
+    "time_to_best_s": 460.0
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 528000,
+    "time_to_best_s": 661.3
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 528256,
+    "time_to_best_s": 1042.2
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 527797,
+    "time_to_best_s": 1639.4
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 527354,
+    "time_to_best_s": 1190.2
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 527322,
+    "time_to_best_s": 1174.1
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 528379,
+    "time_to_best_s": 1756.1
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 528000,
+    "time_to_best_s": 346.1
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 528218,
+    "time_to_best_s": 782.6
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 528000,
+    "time_to_best_s": 381.7
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 527000,
+    "time_to_best_s": 779.9
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 527780,
+    "time_to_best_s": 1179.7
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 528756,
+    "time_to_best_s": 1716.8
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_7",
+  "run": 2,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 527000,
+  "best_worker": 6,
+  "best_seed": 2006,
+  "time_to_best_s": 693.5,
+  "solution": "solutions/tai_100_1000_7_r2_527000.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 527805,
+    "time_to_best_s": 1211.9
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 528824,
+    "time_to_best_s": 1524.7
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 528000,
+    "time_to_best_s": 633.2
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 527392,
+    "time_to_best_s": 1527.0
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 528000,
+    "time_to_best_s": 1605.5
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 527000,
+    "time_to_best_s": 693.5
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 527720,
+    "time_to_best_s": 1480.7
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 528620,
+    "time_to_best_s": 1304.8
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 528785,
+    "time_to_best_s": 1532.4
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 527321,
+    "time_to_best_s": 1678.1
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 527326,
+    "time_to_best_s": 1505.9
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 527901,
+    "time_to_best_s": 876.2
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 527915,
+    "time_to_best_s": 1704.8
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 528993,
+    "time_to_best_s": 1242.1
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 530142,
+    "time_to_best_s": 932.7
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 527776,
+    "time_to_best_s": 957.3
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_7",
+  "run": 3,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 527000,
+  "best_worker": 1,
+  "best_seed": 3001,
+  "time_to_best_s": 770.6,
+  "solution": "solutions/tai_100_1000_7_r3_527000.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 527000,
+    "time_to_best_s": 770.6
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 528169,
+    "time_to_best_s": 1136.9
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 527974,
+    "time_to_best_s": 1385.3
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 528481,
+    "time_to_best_s": 1539.1
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 527827,
+    "time_to_best_s": 1246.0
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 527997,
+    "time_to_best_s": 1275.8
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 528647,
+    "time_to_best_s": 610.7
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 528893,
+    "time_to_best_s": 1245.4
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 527000,
+    "time_to_best_s": 1396.9
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 528000,
+    "time_to_best_s": 529.5
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 528000,
+    "time_to_best_s": 299.8
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 527194,
+    "time_to_best_s": 1672.3
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 527980,
+    "time_to_best_s": 1135.5
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 528000,
+    "time_to_best_s": 541.4
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 528000,
+    "time_to_best_s": 492.0
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 527735,
+    "time_to_best_s": 1436.1
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_8",
+  "run": 1,
+  "start_target": 537000,
+  "seconds": 1800,
+  "best": 528473,
+  "best_worker": 10,
+  "best_seed": 1010,
+  "time_to_best_s": 1791.8,
+  "solution": "solutions/tai_100_1000_8_r1_528473.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 530000,
+    "time_to_best_s": 807.2
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 528717,
+    "time_to_best_s": 1373.2
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 529326,
+    "time_to_best_s": 1526.9
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 529540,
+    "time_to_best_s": 1467.9
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 529764,
+    "time_to_best_s": 1014.6
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 530649,
+    "time_to_best_s": 911.1
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 530042,
+    "time_to_best_s": 1494.5
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 530507,
+    "time_to_best_s": 637.8
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 529643,
+    "time_to_best_s": 1313.8
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 528473,
+    "time_to_best_s": 1791.8
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 529183,
+    "time_to_best_s": 1675.0
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 531000,
+    "time_to_best_s": 897.5
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 530006,
+    "time_to_best_s": 1495.2
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 529000,
+    "time_to_best_s": 1093.8
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 528908,
+    "time_to_best_s": 1553.3
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 530000,
+    "time_to_best_s": 587.2
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_8",
+  "run": 2,
+  "start_target": 537000,
+  "seconds": 1800,
+  "best": 528495,
+  "best_worker": 3,
+  "best_seed": 2003,
+  "time_to_best_s": 1761.7,
+  "solution": "solutions/tai_100_1000_8_r2_528495.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 529565,
+    "time_to_best_s": 1309.9
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 529321,
+    "time_to_best_s": 1377.3
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 528495,
+    "time_to_best_s": 1761.7
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 530090,
+    "time_to_best_s": 772.7
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 528706,
+    "time_to_best_s": 1696.8
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 529000,
+    "time_to_best_s": 843.8
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 529000,
+    "time_to_best_s": 820.8
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 530000,
+    "time_to_best_s": 735.7
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 530000,
+    "time_to_best_s": 456.2
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 530425,
+    "time_to_best_s": 1395.3
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 528668,
+    "time_to_best_s": 1395.3
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 531036,
+    "time_to_best_s": 1727.8
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 529672,
+    "time_to_best_s": 1086.7
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 529000,
+    "time_to_best_s": 782.8
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 530400,
+    "time_to_best_s": 729.7
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 530063,
+    "time_to_best_s": 1732.2
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_8",
+  "run": 3,
+  "start_target": 537000,
+  "seconds": 1800,
+  "best": 528505,
+  "best_worker": 6,
+  "best_seed": 3006,
+  "time_to_best_s": 1778.5,
+  "solution": "solutions/tai_100_1000_8_r3_528505.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 530000,
+    "time_to_best_s": 499.2
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 529744,
+    "time_to_best_s": 1491.8
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 529000,
+    "time_to_best_s": 1067.8
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 529000,
+    "time_to_best_s": 1057.0
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 531000,
+    "time_to_best_s": 607.0
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 528505,
+    "time_to_best_s": 1778.5
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 528983,
+    "time_to_best_s": 881.4
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 530848,
+    "time_to_best_s": 1105.7
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 529217,
+    "time_to_best_s": 1337.6
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 529000,
+    "time_to_best_s": 1067.6
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 529000,
+    "time_to_best_s": 746.3
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 530000,
+    "time_to_best_s": 1063.7
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 529546,
+    "time_to_best_s": 1114.8
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 530726,
+    "time_to_best_s": 1582.8
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 529000,
+    "time_to_best_s": 920.6
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 529000,
+    "time_to_best_s": 1285.9
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_9",
+  "run": 1,
+  "start_target": 539000,
+  "seconds": 1800,
+  "best": 529927,
+  "best_worker": 12,
+  "best_seed": 1012,
+  "time_to_best_s": 1262.5,
+  "solution": "solutions/tai_100_1000_9_r1_529927.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 531581,
+    "time_to_best_s": 1153.5
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 531727,
+    "time_to_best_s": 813.5
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 532000,
+    "time_to_best_s": 482.0
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 532591,
+    "time_to_best_s": 922.7
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 530599,
+    "time_to_best_s": 1460.0
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 531000,
+    "time_to_best_s": 472.8
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 530382,
+    "time_to_best_s": 1783.1
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 531350,
+    "time_to_best_s": 1254.9
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 530106,
+    "time_to_best_s": 1534.8
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 530834,
+    "time_to_best_s": 1498.1
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 531088,
+    "time_to_best_s": 1736.7
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 529927,
+    "time_to_best_s": 1262.5
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 531000,
+    "time_to_best_s": 1000.3
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 531000,
+    "time_to_best_s": 964.0
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 529960,
+    "time_to_best_s": 1462.1
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 531405,
+    "time_to_best_s": 1181.3
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_9",
+  "run": 2,
+  "start_target": 539000,
+  "seconds": 1800,
+  "best": 529470,
+  "best_worker": 9,
+  "best_seed": 2009,
+  "time_to_best_s": 1709.3,
+  "solution": "solutions/tai_100_1000_9_r2_529470.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 531299,
+    "time_to_best_s": 1529.1
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 531000,
+    "time_to_best_s": 679.7
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 530131,
+    "time_to_best_s": 1617.3
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 530000,
+    "time_to_best_s": 841.5
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 532000,
+    "time_to_best_s": 641.8
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 530279,
+    "time_to_best_s": 1505.8
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 531000,
+    "time_to_best_s": 1278.1
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 530999,
+    "time_to_best_s": 723.6
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 529470,
+    "time_to_best_s": 1709.3
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 529999,
+    "time_to_best_s": 1383.7
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 531568,
+    "time_to_best_s": 1332.7
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 531000,
+    "time_to_best_s": 604.1
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 532449,
+    "time_to_best_s": 1408.6
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 531522,
+    "time_to_best_s": 1293.4
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 531889,
+    "time_to_best_s": 1431.0
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 530911,
+    "time_to_best_s": 1017.1
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_9",
+  "run": 3,
+  "start_target": 539000,
+  "seconds": 1800,
+  "best": 530184,
+  "best_worker": 15,
+  "best_seed": 3015,
+  "time_to_best_s": 1229.4,
+  "solution": "solutions/tai_100_1000_9_r3_530184.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 531522,
+    "time_to_best_s": 1621.2
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 531369,
+    "time_to_best_s": 1374.7
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 531000,
+    "time_to_best_s": 462.0
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 530213,
+    "time_to_best_s": 1024.8
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 531248,
+    "time_to_best_s": 833.1
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 530564,
+    "time_to_best_s": 913.6
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 531065,
+    "time_to_best_s": 1731.5
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 531884,
+    "time_to_best_s": 1641.7
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 531381,
+    "time_to_best_s": 1414.5
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 532000,
+    "time_to_best_s": 382.4
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 532000,
+    "time_to_best_s": 426.8
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 531439,
+    "time_to_best_s": 1114.2
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 531397,
+    "time_to_best_s": 1011.5
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 530999,
+    "time_to_best_s": 808.6
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 530184,
+    "time_to_best_s": 1229.4
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 530879,
+    "time_to_best_s": 1222.4
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_10",
+  "run": 1,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 526216,
+  "best_worker": 8,
+  "best_seed": 1008,
+  "time_to_best_s": 1738.6,
+  "solution": "solutions/tai_100_1000_10_r1_526216.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 1001,
+    "makespan": 526610,
+    "time_to_best_s": 1013.3
+   },
+   {
+    "worker": 2,
+    "seed": 1002,
+    "makespan": 527000,
+    "time_to_best_s": 435.5
+   },
+   {
+    "worker": 3,
+    "seed": 1003,
+    "makespan": 526823,
+    "time_to_best_s": 1126.2
+   },
+   {
+    "worker": 4,
+    "seed": 1004,
+    "makespan": 527000,
+    "time_to_best_s": 614.2
+   },
+   {
+    "worker": 5,
+    "seed": 1005,
+    "makespan": 527000,
+    "time_to_best_s": 559.3
+   },
+   {
+    "worker": 6,
+    "seed": 1006,
+    "makespan": 526815,
+    "time_to_best_s": 1088.4
+   },
+   {
+    "worker": 7,
+    "seed": 1007,
+    "makespan": 527000,
+    "time_to_best_s": 804.2
+   },
+   {
+    "worker": 8,
+    "seed": 1008,
+    "makespan": 526216,
+    "time_to_best_s": 1738.6
+   },
+   {
+    "worker": 9,
+    "seed": 1009,
+    "makespan": 527000,
+    "time_to_best_s": 662.8
+   },
+   {
+    "worker": 10,
+    "seed": 1010,
+    "makespan": 527601,
+    "time_to_best_s": 914.5
+   },
+   {
+    "worker": 11,
+    "seed": 1011,
+    "makespan": 526653,
+    "time_to_best_s": 934.8
+   },
+   {
+    "worker": 12,
+    "seed": 1012,
+    "makespan": 526654,
+    "time_to_best_s": 1280.9
+   },
+   {
+    "worker": 13,
+    "seed": 1013,
+    "makespan": 526490,
+    "time_to_best_s": 1506.7
+   },
+   {
+    "worker": 14,
+    "seed": 1014,
+    "makespan": 527000,
+    "time_to_best_s": 474.0
+   },
+   {
+    "worker": 15,
+    "seed": 1015,
+    "makespan": 526650,
+    "time_to_best_s": 912.9
+   },
+   {
+    "worker": 16,
+    "seed": 1016,
+    "makespan": 527000,
+    "time_to_best_s": 532.6
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_10",
+  "run": 2,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 526489,
+  "best_worker": 2,
+  "best_seed": 2002,
+  "time_to_best_s": 1444.7,
+  "solution": "solutions/tai_100_1000_10_r2_526489.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 2001,
+    "makespan": 527000,
+    "time_to_best_s": 537.9
+   },
+   {
+    "worker": 2,
+    "seed": 2002,
+    "makespan": 526489,
+    "time_to_best_s": 1444.7
+   },
+   {
+    "worker": 3,
+    "seed": 2003,
+    "makespan": 527239,
+    "time_to_best_s": 1361.6
+   },
+   {
+    "worker": 4,
+    "seed": 2004,
+    "makespan": 527000,
+    "time_to_best_s": 462.0
+   },
+   {
+    "worker": 5,
+    "seed": 2005,
+    "makespan": 526984,
+    "time_to_best_s": 1541.0
+   },
+   {
+    "worker": 6,
+    "seed": 2006,
+    "makespan": 527000,
+    "time_to_best_s": 523.2
+   },
+   {
+    "worker": 7,
+    "seed": 2007,
+    "makespan": 526824,
+    "time_to_best_s": 1102.3
+   },
+   {
+    "worker": 8,
+    "seed": 2008,
+    "makespan": 527000,
+    "time_to_best_s": 523.0
+   },
+   {
+    "worker": 9,
+    "seed": 2009,
+    "makespan": 527000,
+    "time_to_best_s": 451.6
+   },
+   {
+    "worker": 10,
+    "seed": 2010,
+    "makespan": 527000,
+    "time_to_best_s": 620.7
+   },
+   {
+    "worker": 11,
+    "seed": 2011,
+    "makespan": 527000,
+    "time_to_best_s": 760.7
+   },
+   {
+    "worker": 12,
+    "seed": 2012,
+    "makespan": 527000,
+    "time_to_best_s": 592.8
+   },
+   {
+    "worker": 13,
+    "seed": 2013,
+    "makespan": 526928,
+    "time_to_best_s": 1731.5
+   },
+   {
+    "worker": 14,
+    "seed": 2014,
+    "makespan": 527000,
+    "time_to_best_s": 610.8
+   },
+   {
+    "worker": 15,
+    "seed": 2015,
+    "makespan": 527000,
+    "time_to_best_s": 477.0
+   },
+   {
+    "worker": 16,
+    "seed": 2016,
+    "makespan": 526750,
+    "time_to_best_s": 1212.9
+   }
+  ]
+ },
+ {
+  "instance": "tai_100_1000_10",
+  "run": 3,
+  "start_target": 533000,
+  "seconds": 1800,
+  "best": 526000,
+  "best_worker": 5,
+  "best_seed": 3005,
+  "time_to_best_s": 963.9,
+  "solution": "solutions/tai_100_1000_10_r3_526000.txt.gz",
+  "workers": [
+   {
+    "worker": 1,
+    "seed": 3001,
+    "makespan": 526306,
+    "time_to_best_s": 1183.5
+   },
+   {
+    "worker": 2,
+    "seed": 3002,
+    "makespan": 527753,
+    "time_to_best_s": 1167.2
+   },
+   {
+    "worker": 3,
+    "seed": 3003,
+    "makespan": 527000,
+    "time_to_best_s": 611.4
+   },
+   {
+    "worker": 4,
+    "seed": 3004,
+    "makespan": 526645,
+    "time_to_best_s": 1766.1
+   },
+   {
+    "worker": 5,
+    "seed": 3005,
+    "makespan": 526000,
+    "time_to_best_s": 963.9
+   },
+   {
+    "worker": 6,
+    "seed": 3006,
+    "makespan": 526835,
+    "time_to_best_s": 881.5
+   },
+   {
+    "worker": 7,
+    "seed": 3007,
+    "makespan": 526685,
+    "time_to_best_s": 1538.9
+   },
+   {
+    "worker": 8,
+    "seed": 3008,
+    "makespan": 526850,
+    "time_to_best_s": 1155.8
+   },
+   {
+    "worker": 9,
+    "seed": 3009,
+    "makespan": 526000,
+    "time_to_best_s": 1239.7
+   },
+   {
+    "worker": 10,
+    "seed": 3010,
+    "makespan": 526527,
+    "time_to_best_s": 1318.4
+   },
+   {
+    "worker": 11,
+    "seed": 3011,
+    "makespan": 527000,
+    "time_to_best_s": 462.8
+   },
+   {
+    "worker": 12,
+    "seed": 3012,
+    "makespan": 526932,
+    "time_to_best_s": 1490.9
+   },
+   {
+    "worker": 13,
+    "seed": 3013,
+    "makespan": 526791,
+    "time_to_best_s": 1015.8
+   },
+   {
+    "worker": 14,
+    "seed": 3014,
+    "makespan": 528000,
+    "time_to_best_s": 244.0
+   },
+   {
+    "worker": 15,
+    "seed": 3015,
+    "makespan": 527000,
+    "time_to_best_s": 641.8
+   },
+   {
+    "worker": 16,
+    "seed": 3016,
+    "makespan": 527000,
+    "time_to_best_s": 480.5
+   }
+  ]
+ }
+]

@@ -1,0 +1,120 @@
+./bin_fjsp instances/behnke1.fjs 120 8 solutions/tabu/behnke1.sched logs/tabu/behnke1.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke1.fjs 120 8 solutions/cpsat/behnke1.sched > logs/cpsat/behnke1.log 2>&1
+./bin_fjsp instances/behnke2.fjs 120 8 solutions/tabu/behnke2.sched logs/tabu/behnke2.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke2.fjs 120 8 solutions/cpsat/behnke2.sched > logs/cpsat/behnke2.log 2>&1
+./bin_fjsp instances/behnke3.fjs 120 8 solutions/tabu/behnke3.sched logs/tabu/behnke3.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke3.fjs 120 8 solutions/cpsat/behnke3.sched > logs/cpsat/behnke3.log 2>&1
+./bin_fjsp instances/behnke4.fjs 120 8 solutions/tabu/behnke4.sched logs/tabu/behnke4.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke4.fjs 120 8 solutions/cpsat/behnke4.sched > logs/cpsat/behnke4.log 2>&1
+./bin_fjsp instances/behnke5.fjs 120 8 solutions/tabu/behnke5.sched logs/tabu/behnke5.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke5.fjs 120 8 solutions/cpsat/behnke5.sched > logs/cpsat/behnke5.log 2>&1
+./bin_fjsp instances/behnke6.fjs 120 8 solutions/tabu/behnke6.sched logs/tabu/behnke6.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke6.fjs 120 8 solutions/cpsat/behnke6.sched > logs/cpsat/behnke6.log 2>&1
+./bin_fjsp instances/behnke7.fjs 120 8 solutions/tabu/behnke7.sched logs/tabu/behnke7.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke7.fjs 120 8 solutions/cpsat/behnke7.sched > logs/cpsat/behnke7.log 2>&1
+./bin_fjsp instances/behnke8.fjs 120 8 solutions/tabu/behnke8.sched logs/tabu/behnke8.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke8.fjs 120 8 solutions/cpsat/behnke8.sched > logs/cpsat/behnke8.log 2>&1
+./bin_fjsp instances/behnke9.fjs 120 8 solutions/tabu/behnke9.sched logs/tabu/behnke9.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke9.fjs 120 8 solutions/cpsat/behnke9.sched > logs/cpsat/behnke9.log 2>&1
+./bin_fjsp instances/behnke10.fjs 120 8 solutions/tabu/behnke10.sched logs/tabu/behnke10.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke10.fjs 120 8 solutions/cpsat/behnke10.sched > logs/cpsat/behnke10.log 2>&1
+./bin_fjsp instances/behnke11.fjs 120 8 solutions/tabu/behnke11.sched logs/tabu/behnke11.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke11.fjs 120 8 solutions/cpsat/behnke11.sched > logs/cpsat/behnke11.log 2>&1
+./bin_fjsp instances/behnke12.fjs 120 8 solutions/tabu/behnke12.sched logs/tabu/behnke12.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke12.fjs 120 8 solutions/cpsat/behnke12.sched > logs/cpsat/behnke12.log 2>&1
+./bin_fjsp instances/behnke13.fjs 120 8 solutions/tabu/behnke13.sched logs/tabu/behnke13.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke13.fjs 120 8 solutions/cpsat/behnke13.sched > logs/cpsat/behnke13.log 2>&1
+./bin_fjsp instances/behnke14.fjs 120 8 solutions/tabu/behnke14.sched logs/tabu/behnke14.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke14.fjs 120 8 solutions/cpsat/behnke14.sched > logs/cpsat/behnke14.log 2>&1
+./bin_fjsp instances/behnke15.fjs 120 8 solutions/tabu/behnke15.sched logs/tabu/behnke15.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke15.fjs 120 8 solutions/cpsat/behnke15.sched > logs/cpsat/behnke15.log 2>&1
+./bin_fjsp instances/behnke16.fjs 120 8 solutions/tabu/behnke16.sched logs/tabu/behnke16.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke16.fjs 120 8 solutions/cpsat/behnke16.sched > logs/cpsat/behnke16.log 2>&1
+./bin_fjsp instances/behnke17.fjs 120 8 solutions/tabu/behnke17.sched logs/tabu/behnke17.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke17.fjs 120 8 solutions/cpsat/behnke17.sched > logs/cpsat/behnke17.log 2>&1
+./bin_fjsp instances/behnke18.fjs 120 8 solutions/tabu/behnke18.sched logs/tabu/behnke18.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke18.fjs 120 8 solutions/cpsat/behnke18.sched > logs/cpsat/behnke18.log 2>&1
+./bin_fjsp instances/behnke19.fjs 120 8 solutions/tabu/behnke19.sched logs/tabu/behnke19.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke19.fjs 120 8 solutions/cpsat/behnke19.sched > logs/cpsat/behnke19.log 2>&1
+./bin_fjsp instances/behnke20.fjs 120 8 solutions/tabu/behnke20.sched logs/tabu/behnke20.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke20.fjs 120 8 solutions/cpsat/behnke20.sched > logs/cpsat/behnke20.log 2>&1
+./bin_fjsp instances/behnke21.fjs 120 8 solutions/tabu/behnke21.sched logs/tabu/behnke21.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke21.fjs 120 8 solutions/cpsat/behnke21.sched > logs/cpsat/behnke21.log 2>&1
+./bin_fjsp instances/behnke22.fjs 120 8 solutions/tabu/behnke22.sched logs/tabu/behnke22.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke22.fjs 120 8 solutions/cpsat/behnke22.sched > logs/cpsat/behnke22.log 2>&1
+./bin_fjsp instances/behnke23.fjs 120 8 solutions/tabu/behnke23.sched logs/tabu/behnke23.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke23.fjs 120 8 solutions/cpsat/behnke23.sched > logs/cpsat/behnke23.log 2>&1
+./bin_fjsp instances/behnke24.fjs 120 8 solutions/tabu/behnke24.sched logs/tabu/behnke24.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke24.fjs 120 8 solutions/cpsat/behnke24.sched > logs/cpsat/behnke24.log 2>&1
+./bin_fjsp instances/behnke25.fjs 120 8 solutions/tabu/behnke25.sched logs/tabu/behnke25.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke25.fjs 120 8 solutions/cpsat/behnke25.sched > logs/cpsat/behnke25.log 2>&1
+./bin_fjsp instances/behnke26.fjs 120 8 solutions/tabu/behnke26.sched logs/tabu/behnke26.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke26.fjs 120 8 solutions/cpsat/behnke26.sched > logs/cpsat/behnke26.log 2>&1
+./bin_fjsp instances/behnke27.fjs 120 8 solutions/tabu/behnke27.sched logs/tabu/behnke27.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke27.fjs 120 8 solutions/cpsat/behnke27.sched > logs/cpsat/behnke27.log 2>&1
+./bin_fjsp instances/behnke28.fjs 120 8 solutions/tabu/behnke28.sched logs/tabu/behnke28.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke28.fjs 120 8 solutions/cpsat/behnke28.sched > logs/cpsat/behnke28.log 2>&1
+./bin_fjsp instances/behnke29.fjs 120 8 solutions/tabu/behnke29.sched logs/tabu/behnke29.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke29.fjs 120 8 solutions/cpsat/behnke29.sched > logs/cpsat/behnke29.log 2>&1
+./bin_fjsp instances/behnke30.fjs 120 8 solutions/tabu/behnke30.sched logs/tabu/behnke30.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke30.fjs 120 8 solutions/cpsat/behnke30.sched > logs/cpsat/behnke30.log 2>&1
+./bin_fjsp instances/behnke31.fjs 120 8 solutions/tabu/behnke31.sched logs/tabu/behnke31.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke31.fjs 120 8 solutions/cpsat/behnke31.sched > logs/cpsat/behnke31.log 2>&1
+./bin_fjsp instances/behnke32.fjs 120 8 solutions/tabu/behnke32.sched logs/tabu/behnke32.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke32.fjs 120 8 solutions/cpsat/behnke32.sched > logs/cpsat/behnke32.log 2>&1
+./bin_fjsp instances/behnke33.fjs 120 8 solutions/tabu/behnke33.sched logs/tabu/behnke33.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke33.fjs 120 8 solutions/cpsat/behnke33.sched > logs/cpsat/behnke33.log 2>&1
+./bin_fjsp instances/behnke34.fjs 120 8 solutions/tabu/behnke34.sched logs/tabu/behnke34.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke34.fjs 120 8 solutions/cpsat/behnke34.sched > logs/cpsat/behnke34.log 2>&1
+./bin_fjsp instances/behnke35.fjs 120 8 solutions/tabu/behnke35.sched logs/tabu/behnke35.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke35.fjs 120 8 solutions/cpsat/behnke35.sched > logs/cpsat/behnke35.log 2>&1
+./bin_fjsp instances/behnke36.fjs 120 8 solutions/tabu/behnke36.sched logs/tabu/behnke36.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke36.fjs 120 8 solutions/cpsat/behnke36.sched > logs/cpsat/behnke36.log 2>&1
+./bin_fjsp instances/behnke37.fjs 120 8 solutions/tabu/behnke37.sched logs/tabu/behnke37.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke37.fjs 120 8 solutions/cpsat/behnke37.sched > logs/cpsat/behnke37.log 2>&1
+./bin_fjsp instances/behnke38.fjs 120 8 solutions/tabu/behnke38.sched logs/tabu/behnke38.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke38.fjs 120 8 solutions/cpsat/behnke38.sched > logs/cpsat/behnke38.log 2>&1
+./bin_fjsp instances/behnke39.fjs 120 8 solutions/tabu/behnke39.sched logs/tabu/behnke39.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke39.fjs 120 8 solutions/cpsat/behnke39.sched > logs/cpsat/behnke39.log 2>&1
+./bin_fjsp instances/behnke40.fjs 120 8 solutions/tabu/behnke40.sched logs/tabu/behnke40.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke40.fjs 120 8 solutions/cpsat/behnke40.sched > logs/cpsat/behnke40.log 2>&1
+./bin_fjsp instances/behnke41.fjs 120 8 solutions/tabu/behnke41.sched logs/tabu/behnke41.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke41.fjs 120 8 solutions/cpsat/behnke41.sched > logs/cpsat/behnke41.log 2>&1
+./bin_fjsp instances/behnke42.fjs 120 8 solutions/tabu/behnke42.sched logs/tabu/behnke42.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke42.fjs 120 8 solutions/cpsat/behnke42.sched > logs/cpsat/behnke42.log 2>&1
+./bin_fjsp instances/behnke43.fjs 120 8 solutions/tabu/behnke43.sched logs/tabu/behnke43.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke43.fjs 120 8 solutions/cpsat/behnke43.sched > logs/cpsat/behnke43.log 2>&1
+./bin_fjsp instances/behnke44.fjs 120 8 solutions/tabu/behnke44.sched logs/tabu/behnke44.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke44.fjs 120 8 solutions/cpsat/behnke44.sched > logs/cpsat/behnke44.log 2>&1
+./bin_fjsp instances/behnke45.fjs 120 8 solutions/tabu/behnke45.sched logs/tabu/behnke45.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke45.fjs 120 8 solutions/cpsat/behnke45.sched > logs/cpsat/behnke45.log 2>&1
+./bin_fjsp instances/behnke46.fjs 120 8 solutions/tabu/behnke46.sched logs/tabu/behnke46.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke46.fjs 120 8 solutions/cpsat/behnke46.sched > logs/cpsat/behnke46.log 2>&1
+./bin_fjsp instances/behnke47.fjs 120 8 solutions/tabu/behnke47.sched logs/tabu/behnke47.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke47.fjs 120 8 solutions/cpsat/behnke47.sched > logs/cpsat/behnke47.log 2>&1
+./bin_fjsp instances/behnke48.fjs 120 8 solutions/tabu/behnke48.sched logs/tabu/behnke48.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke48.fjs 120 8 solutions/cpsat/behnke48.sched > logs/cpsat/behnke48.log 2>&1
+./bin_fjsp instances/behnke49.fjs 120 8 solutions/tabu/behnke49.sched logs/tabu/behnke49.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke49.fjs 120 8 solutions/cpsat/behnke49.sched > logs/cpsat/behnke49.log 2>&1
+./bin_fjsp instances/behnke50.fjs 120 8 solutions/tabu/behnke50.sched logs/tabu/behnke50.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke50.fjs 120 8 solutions/cpsat/behnke50.sched > logs/cpsat/behnke50.log 2>&1
+./bin_fjsp instances/behnke51.fjs 120 8 solutions/tabu/behnke51.sched logs/tabu/behnke51.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke51.fjs 120 8 solutions/cpsat/behnke51.sched > logs/cpsat/behnke51.log 2>&1
+./bin_fjsp instances/behnke52.fjs 120 8 solutions/tabu/behnke52.sched logs/tabu/behnke52.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke52.fjs 120 8 solutions/cpsat/behnke52.sched > logs/cpsat/behnke52.log 2>&1
+./bin_fjsp instances/behnke53.fjs 120 8 solutions/tabu/behnke53.sched logs/tabu/behnke53.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke53.fjs 120 8 solutions/cpsat/behnke53.sched > logs/cpsat/behnke53.log 2>&1
+./bin_fjsp instances/behnke54.fjs 120 8 solutions/tabu/behnke54.sched logs/tabu/behnke54.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke54.fjs 120 8 solutions/cpsat/behnke54.sched > logs/cpsat/behnke54.log 2>&1
+./bin_fjsp instances/behnke55.fjs 120 8 solutions/tabu/behnke55.sched logs/tabu/behnke55.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke55.fjs 120 8 solutions/cpsat/behnke55.sched > logs/cpsat/behnke55.log 2>&1
+./bin_fjsp instances/behnke56.fjs 120 8 solutions/tabu/behnke56.sched logs/tabu/behnke56.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke56.fjs 120 8 solutions/cpsat/behnke56.sched > logs/cpsat/behnke56.log 2>&1
+./bin_fjsp instances/behnke57.fjs 120 8 solutions/tabu/behnke57.sched logs/tabu/behnke57.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke57.fjs 120 8 solutions/cpsat/behnke57.sched > logs/cpsat/behnke57.log 2>&1
+./bin_fjsp instances/behnke58.fjs 120 8 solutions/tabu/behnke58.sched logs/tabu/behnke58.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke58.fjs 120 8 solutions/cpsat/behnke58.sched > logs/cpsat/behnke58.log 2>&1
+./bin_fjsp instances/behnke59.fjs 120 8 solutions/tabu/behnke59.sched logs/tabu/behnke59.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke59.fjs 120 8 solutions/cpsat/behnke59.sched > logs/cpsat/behnke59.log 2>&1
+./bin_fjsp instances/behnke60.fjs 120 8 solutions/tabu/behnke60.sched logs/tabu/behnke60.csv
+python ../baseline_cpsat/cpsat_fjsp.py instances/behnke60.fjs 120 8 solutions/cpsat/behnke60.sched > logs/cpsat/behnke60.log 2>&1

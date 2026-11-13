@@ -1,0 +1,21 @@
+{
+ "instance": "MKT02",
+ "variant": "sound_sp_abl-nohead",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "120",
+ "incumbent": "120",
+ "runtime": 0.25,
+ "nvars": 1352,
+ "ncons": 1005,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_3": 2
+ },
+ "empty_into_0": 8,
+ "empty_time": "62"
+}

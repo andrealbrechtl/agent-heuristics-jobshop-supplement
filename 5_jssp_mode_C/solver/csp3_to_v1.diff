@@ -1,0 +1,281 @@
+--- csp3_paper.c	2026-10-20 13:14:59.661636382 -0300
++++ csp_protC_v1.c	2026-10-20 13:14:59.647151607 -0300
+@@ -26,6 +26,9 @@
+ static int *mlist, *mpos;
+ static int *bestst;
+ static long long bestmk = -1;
++static int rawseed = 0;
++static int DESCENT = 0;
++static int ILS = 0, ILSRR = 30, ILSK = 4, ILSW = 1500, ILSACC = 0; static long long ILSDESC = 3000, RREVERY = 0;
+ static int LB, T;
+ static int verbose = 0, NOISE = 8;
+ static int MAXDEPTH = 60;
+@@ -42,8 +45,32 @@
+     struct timeval tv; gettimeofday(&tv, NULL);
+     return tv.tv_sec + tv.tv_usec * 1e-6;
+ }
+-static inline int LOv(int j, int o) { return pref[j * (M + 1) + o]; }
+-static inline int HIv(int j, int o) { return pref[j * (M + 1) + o] + slack[j]; }
++static int *dlo = NULL, *dhi = NULL;   /* optional propagated per-op start domains */
++static inline int LOv(int j, int o) { return dlo ? dlo[j * M + o] : pref[j * (M + 1) + o]; }
++static inline int HIv(int j, int o) {
++    int h = pref[j * (M + 1) + o] + slack[j];
++    if (dhi && dhi[j * M + o] < h) h = dhi[j * M + o];
++    return h;
++}
++/* clip the current state into the per-op domains keeping the job chains feasible */
++static void clip_domains(void) {
++    for (int j = 0; j < N; j++) {
++        int base = j * M, lim = 1 << 30;
++        for (int o = M - 1; o >= 0; o--) {
++            int id = base + o, h = HIv(j, o);
++            if (lim < h) h = lim;
++            if (st[id] > h) st[id] = h;
++            if (o) lim = st[id] - dur[id - 1];
++        }
++        int pe = 0;
++        for (int o = 0; o < M; o++) {
++            int id = base + o, l = LOv(j, o);
++            if (pe > l) l = pe;
++            if (st[id] < l) st[id] = l;
++            pe = st[id] + dur[id];
++        }
++    }
++}
+ 
+ /* ---- set of machines that currently have overlap ---- */
+ static int *cset, *cidx, cn;
+@@ -234,6 +261,112 @@
+     }
+ }
+ 
++/* ---- whole-job exact reroute (negotiated congestion) ----
++ * Remove nothing: job j's own ops are skipped when pricing.  DP over the delay
++ * grid D in [0, slack_j] (step RR), cost = sum over ops of overlap with other
++ * jobs' ops, each overlapped unit priced (1 + H[k][bucket]).  The DP returns the
++ * cheapest monotone delay profile for the whole job, i.e. it moves delay budget
++ * anywhere along the chain in one step. */
++static int RR = 1, NBK = 0;
++#define HBK 64
++static float *Hh;            /* history price per (machine, bucket) */
++static float *rf, *rc;
++static unsigned short *rarg;
++static int rmaxnd = 0;
++static int *rns;
++static long long nreroute = 0, nreroute_gain = 0;
++static double HF = 0.05;
++static inline int lbound_start(int k, int t) {   /* first index on machine k with st >= t */
++    int *Lk = mlist + (size_t)k * N; int lo = 0, hi = N;
++    while (lo < hi) { int md = (lo + hi) >> 1; if (st[Lk[md]] < t) lo = md + 1; else hi = md; }
++    return lo;
++}
++static void reroute_alloc(void) {
++    rmaxnd = 0;
++    for (int j = 0; j < N; j++) if (slack[j] / RR + 1 > rmaxnd) rmaxnd = slack[j] / RR + 1;
++    if (rmaxnd > 65535) { RR = (rmaxnd * RR) / 65535 + 1; rmaxnd = 0; for (int j = 0; j < N; j++) if (slack[j] / RR + 1 > rmaxnd) rmaxnd = slack[j] / RR + 1; }
++    free(rf); free(rc); free(rarg);
++    rf = malloc(sizeof(float) * rmaxnd); rc = malloc(sizeof(float) * rmaxnd);
++    rarg = malloc(sizeof(unsigned short) * (size_t)M * rmaxnd);
++    if (!rns) rns = malloc(sizeof(int) * M);
++    if (!Hh) { NBK = (T + 4000) / HBK + 2; Hh = calloc((size_t)M * NBK, sizeof(float)); }
++}
++static void hist_bump(void) {   /* raise prices where machines overlap now */
++    for (int c = 0; c < cn; c++) {
++        int k = cset[c]; int *Lk = mlist + (size_t)k * N;
++        for (int i = 0; i + 1 < N; i++) {
++            int a = Lk[i], b = Lk[i + 1];
++            int e = st[a] + dur[a];
++            if (e > st[b]) {
++                int hi = e < st[b] + dur[b] ? e : st[b] + dur[b];
++                for (int q = st[b] / HBK; q <= (hi - 1) / HBK && q < NBK; q++) Hh[(size_t)k * NBK + q] += (float)HF;
++            }
++        }
++    }
++}
++static long long job_overlap(int j) {
++    long long t = 0;
++    for (int o = 0; o < M; o++) {
++        int id = j * M + o, k = mach[id], i = mpos[id];
++        t += padj(k, i - 1) + padj(k, i);
++    }
++    return t;
++}
++static void reroute(int j) {
++    int nd = slack[j] / RR + 1;
++    float *f = rf, *c = rc;
++    for (int o = 0; o < M; o++) {
++        int id = j * M + o, k = mach[id], d = dur[id], t0 = pref[j * (M + 1) + o];
++        int ilo0 = (LOv(j, o) - t0 + RR - 1) / RR, ihi0 = (HIv(j, o) - t0) / RR;
++        for (int i = 0; i < nd; i++) c[i] = (i < ilo0 || i > ihi0) ? 1e30f : 0.f;
++        int tmax = t0 + (nd - 1) * RR + d;
++        int *Lk = mlist + (size_t)k * N;
++        float *Hk = Hh + (size_t)k * NBK;
++        for (int q = lbound_start(k, t0 - 1000); q < N; q++) {
++            int x = Lk[q]; int s = st[x];
++            if (s >= tmax) break;
++            if (x == id) continue;
++            int e = s + dur[x];
++            if (e <= t0) continue;
++            int ilo = s - d - t0 < 0 ? 0 : (s - d - t0) / RR;
++            int ihi = (e - 1 - t0) / RR; if (ihi >= nd) ihi = nd - 1;
++            for (int i = ilo; i <= ihi; i++) {
++                int t = t0 + i * RR;
++                int lo = t > s ? t : s, hi = t + d < e ? t + d : e;
++                if (hi > lo) c[i] += (float)(hi - lo) * (1.f + Hk[lo / HBK]);
++            }
++        }
++        unsigned short *ar = rarg + (size_t)o * rmaxnd;
++        if (o == 0) { for (int i = 0; i < nd; i++) { f[i] = c[i]; ar[i] = i; } }
++        else {
++            float best = 3e38f; int bi = 0;
++            for (int i = 0; i < nd; i++) {
++                if (f[i] < best || (f[i] == best && (rnd() & 7) == 0)) { best = f[i]; bi = i; }
++                ar[i] = (unsigned short)bi; f[i] = best + c[i];
++            }
++        }
++    }
++    float best = 3e38f; int bi = 0;
++    for (int i = 0; i < nd; i++) if (f[i] < best || (f[i] == best && (rnd() & 3) == 0)) { best = f[i]; bi = i; }
++    int D = bi;
++    if (best >= 1e29f) return;   /* no domain-consistent path on this grid */
++    for (int o = M - 1; o >= 0; o--) { rns[o] = pref[j * (M + 1) + o] + D * RR; if (o > 0) D = rarg[(size_t)o * rmaxnd + D]; }
++    long long before = TOT;
++    for (int o = 0; o < M; o++) { int id = j * M + o; if (st[id] != rns[o]) setst(id, rns[o]); }
++    nreroute++; if (TOT < before) nreroute_gain++;
++}
++/* pick a job involved in a random conflict */
++static int conflict_job(void) {
++    if (cn == 0) return -1;
++    int k = cset[rndint(cn)]; int *L = mlist + (size_t)k * N;
++    int cand[128], nc = 0;
++    for (int i = 0; i + 1 < N && nc < 128; i++) if (st[L[i]] + dur[L[i]] > st[L[i + 1]]) cand[nc++] = i;
++    if (!nc) return -1;
++    int i0 = cand[rndint(nc)];
++    int id = (rnd() & 1) ? L[i0] : L[i0 + 1];
++    return id / M;
++}
++
+ /* one min-conflicts step: separate a random overlapping pair the cheapest way */
+ static void ls_step(void) {
+     if (cn == 0) return;
+@@ -265,7 +398,8 @@
+         if (!ok) continue;
+         if (d < bestd || (d == bestd && (rnd() & 1))) { bestd = d; bi = c; }
+     }
+-    if (bi < 0) { if (mw[k] < 1000000) mw[k]++; kick(4, 2000); return; }
++    if (bi < 0) { if (mw[k] < 1000000) mw[k]++; if (!DESCENT) kick(4, 2000); return; }
++    if (DESCENT && bestd >= 0 && !(bestd == 0 && (rnd() & 1))) { if (mw[k] < 1000000) mw[k]++; return; }
+     if ((rnd() % 100) < (unsigned)NOISE) {           /* noise: random legal option */
+         for (int tries = 0; tries < 6; tries++) {
+             int c = rndint(no), id = oid[c], j = id / M, o = opo[id];
+@@ -316,8 +450,28 @@
+     int step = argc > 9 ? atoi(argv[9]) : 1000;
+     long long shakeit = argc > 10 ? atoll(argv[10]) : 200000LL;
+     if (getenv("JSPV")) verbose = 1;
++    if (getenv("DESCENT")) DESCENT = atoi(getenv("DESCENT"));
++    long long rrevery = getenv("RREVERY") ? atoll(getenv("RREVERY")) : 0;
++    if (getenv("ILS")) { ILS = 1; RREVERY = rrevery; rrevery = 0; }
++    if (getenv("ILSRR")) ILSRR = atoi(getenv("ILSRR"));
++    if (getenv("ILSK")) ILSK = atoi(getenv("ILSK"));
++    if (getenv("ILSW")) ILSW = atoi(getenv("ILSW"));
++    if (getenv("ILSACC")) ILSACC = atoi(getenv("ILSACC"));
++    if (getenv("ILSDESC")) ILSDESC = atoll(getenv("ILSDESC"));
++    if (getenv("RR")) RR = atoi(getenv("RR"));
++    if (getenv("HF")) HF = atof(getenv("HF"));
+ 
+     read_instance(inst);
++    if (getenv("DOMS")) {
++        FILE *df = fopen(getenv("DOMS"), "r");
++        dlo = malloc(sizeof(int) * NM); dhi = malloc(sizeof(int) * NM);
++        int ok = df != NULL;
++        for (int q = 0; q < NM && ok; q++) ok = fscanf(df, "%d", &dlo[q]) == 1;
++        for (int q = 0; q < NM && ok; q++) ok = fscanf(df, "%d", &dhi[q]) == 1;
++        if (df) fclose(df);
++        if (!ok) { fprintf(stderr, "bad DOMS file\n"); return 1; }
++        fprintf(stderr, "loaded propagated domains\n");
++    }
+     ulog_id = malloc(sizeof(int) * (MAXDEPTH + 8));
+     ulog_old = malloc(sizeof(int) * (MAXDEPTH + 8));
+ 
+@@ -333,6 +487,10 @@
+                 memcpy(bestst, st, sizeof(int) * NM); bestmk = mk;
+                 if ((int)mk - step < T0) T0 = (int)mk - step;
+                 fprintf(stderr, "seeded mk=%lld\n", mk);
++            } else if (okread && getenv("RAWSEED")) {
++                /* infeasible seed: use it as the starting state at T0 (clipped into corridors) */
++                memcpy(bestst, st, sizeof(int) * NM); rawseed = 1;
++                fprintf(stderr, "raw infeasible seed used as start\n");
+             } else fprintf(stderr, "seed unusable\n");
+         }
+     }
+@@ -342,14 +500,46 @@
+     T = T0;
+     for (;;) {
+         for (int j = 0; j < N; j++) { slack[j] = T - jlen[j]; if (slack[j] < 0) slack[j] = 0; }
+-        if (bestmk > 0) warm_from(bestst); else init_stretch();
++        if (bestmk > 0 || rawseed) warm_from(bestst); else init_stretch();
++        if (dlo) clip_domains();
++        rawseed = 0;
+         rebuild();
++        if (rrevery || ILS) reroute_alloc();
+         long long amt0 = TOT; int c0 = cn;
+         double rt0 = now();
+         long long it = 0, sincebest = 0, bestamt = TOT;
+         long long nkick = 0;
++        if (ILS) {
++            /* iterated local search: perturb near a conflict, strict descent, accept if not worse */
++            int *snap = malloc(sizeof(int) * NM);
++            long long acc = 0, ilsit = 0, bestTOT = TOT;
++            DESCENT = 1;
++            /* initial descent */
++            for (long long q = 0; q < ILSDESC * 20 && cn > 0; q++) ls_step();
++            while (cn > 0 && now() < deadline) {
++                memcpy(snap, st, sizeof(int) * NM); long long t0v = TOT;
++                int r = rndint(100);
++                if (r < ILSRR) { int j = conflict_job(); if (j >= 0) reroute(j); }
++                else kick(ILSK, ILSW);
++                for (long long q = 0; q < ILSDESC && cn > 0; q++) {
++                    ls_step();
++                    if (RREVERY && (q % RREVERY) == RREVERY - 1) { int j = conflict_job(); if (j >= 0) reroute(j); }
++                }
++                ilsit++;
++                if (TOT <= t0v || (rndint(1000) < ILSACC)) { acc++; if (TOT < bestTOT) bestTOT = TOT; }
++                else { memcpy(st, snap, sizeof(int) * NM); rebuild(); }
++                if ((ilsit & 255) == 0 && verbose)
++                    fprintf(stderr, "  ILS T=%d iter=%lld acc=%lld conf=%d amt=%lld best=%lld rr=%lld/%lld (%.0fs)\n",
++                            T, ilsit, acc, cn, TOT, bestTOT, nreroute_gain, nreroute, now() - t0);
++            }
++            free(snap);
++        }
+         while (cn > 0 && now() < deadline) {
+             ls_step(); it++; sincebest++;
++            if (rrevery && (it % rrevery) == 0) {
++                hist_bump();
++                int j = conflict_job(); if (j >= 0) reroute(j);
++            }
+             if (TOT < bestamt) { bestamt = TOT; sincebest = 0; }
+             if (sincebest && (sincebest % shakeit) == 0) {
+                 for (int q = 0; q < 20; q++) kick(8, 3000);
+@@ -358,8 +548,8 @@
+             }
+             if ((it & 0xFFFFF) == 0) {
+                 if (verbose)
+-                    fprintf(stderr, "  T=%d it=%lldM conf=%d amt=%lld shk=%lld (%.0fs)\n",
+-                            T, it >> 20, cn, TOT, nkick, now() - t0);
++                    fprintf(stderr, "  T=%d it=%lldM conf=%d amt=%lld shk=%lld rr=%lld/%lld (%.0fs)\n",
++                            T, it >> 20, cn, TOT, nkick, nreroute_gain, nreroute, now() - t0);
+                 if (sincebest > stallit) break;
+             }
+         }
+@@ -379,7 +569,10 @@
+             if (bestmk < 0) T += 5000;
+             else T = (int)bestmk - (1 + rndint(step));
+         }
+-        if (now() >= deadline) break;
++        if (now() >= deadline) {
++            if (cn > 0 && getenv("DUMP")) { write_solution(getenv("DUMP"), st); fprintf(stderr, "dumped T=%d conf=%d\n", T, cn); }
++            break;
++        }
+         if (T < LB) T = LB;
+     }
+     fprintf(stderr, "FINAL best=%lld\n", bestmk);

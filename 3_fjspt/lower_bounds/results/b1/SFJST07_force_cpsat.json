@@ -1,0 +1,22 @@
+{
+ "instance": "SFJST07",
+ "variant": "force",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "409",
+ "incumbent": "409",
+ "runtime": 0.01,
+ "nvars": 114,
+ "ncons": 104,
+ "u": 1,
+ "starts": {
+  "s_2": 2
+ },
+ "ends": {
+  "f_1": 1,
+  "f_2": 1
+ },
+ "empty_into_0": 3,
+ "empty_time": "56"
+}

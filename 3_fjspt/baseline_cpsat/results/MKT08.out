@@ -1,0 +1,43 @@
+greedy start makespan 1268.5
+hint completed and accepted by the model
+[   15.37s] makespan 1268.5  bound 254.5
+[   22.75s] makespan 1266.5  bound 581.5
+[   27.65s] makespan 1266.0  bound 582.0
+[   28.11s] makespan 1264.5  bound 582.0
+[   28.32s] makespan 1264.0  bound 582.0
+[   30.27s] makespan 1256.5  bound 582.0
+[   32.72s] makespan 1253.0  bound 583.5
+[   33.75s] makespan 1252.5  bound 583.5
+[   42.44s] makespan 1252.0  bound 587.0
+[   42.57s] makespan 1251.5  bound 587.0
+[   46.30s] makespan 1250.5  bound 587.0
+[   52.74s] makespan 1250.0  bound 587.0
+[   54.11s] makespan 1249.5  bound 587.0
+[   56.53s] makespan 1249.0  bound 587.0
+[   57.92s] makespan 1248.5  bound 587.0
+[   58.06s] makespan 1248.0  bound 587.0
+[   58.89s] makespan 1247.5  bound 587.0
+[   59.49s] makespan 1225.5  bound 587.0
+[   70.59s] makespan 1224.5  bound 587.0
+[   75.56s] makespan 1224.0  bound 587.0
+[   77.22s] makespan 1223.5  bound 587.0
+[   78.40s] makespan 1220.5  bound 587.0
+[  164.64s] makespan 1217.5  bound 587.0
+[  170.72s] makespan 1214.5  bound 587.0
+[  381.98s] makespan 1213.5  bound 587.0
+[  398.53s] makespan 1213.0  bound 587.0
+[  400.45s] makespan 1209.5  bound 587.0
+[  401.54s] makespan 1209.0  bound 587.0
+[  402.13s] makespan 1208.5  bound 587.0
+[  403.94s] makespan 1208.0  bound 587.0
+[  404.51s] makespan 1207.5  bound 587.0
+[  407.40s] makespan 1206.5  bound 587.0
+[  412.98s] makespan 1205.5  bound 587.0
+[  472.52s] makespan 1194.5  bound 587.0
+[  473.98s] makespan 1193.5  bound 587.0
+[  522.91s] makespan 1189.5  bound 587.0
+[  523.24s] makespan 1189.0  bound 587.0
+[  523.53s] makespan 1187.5  bound 587.0
+[  524.69s] makespan 1184.5  bound 587.0
+status FEASIBLE wall 600.2
+best makespan 1184.5  bound 587.0

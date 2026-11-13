@@ -1,0 +1,2 @@
+behnke56: start makespan 385, 100 jobs, 15 pools, time 1500.0, sub 10.0, workers 4
+done: makespan 385 after 482 iterations, 1502s; stats (tries, improvements, equal) {'crit': [83, 0, 83], 'critjobs': [72, 0, 72], 'jobs': [162, 0, 162], 'window': [80, 0, 80], 'pool': [85, 0, 85]}

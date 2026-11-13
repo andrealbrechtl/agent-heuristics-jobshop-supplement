@@ -1,0 +1,22 @@
+{
+ "instance": "mt10xt",
+ "variant": "force",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "836",
+ "incumbent": "836",
+ "runtime": 0.02,
+ "nvars": 587,
+ "ncons": 669,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_1": 1,
+  "f_8": 1
+ },
+ "empty_into_0": 8,
+ "empty_time": "536"
+}

@@ -1,0 +1,10 @@
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT01.json --time 600 --workers 8 --seed 0 --out MKT01.sol --log MKT01.csv > MKT01.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT02.json --time 600 --workers 8 --seed 0 --out MKT02.sol --log MKT02.csv > MKT02.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT03.json --time 600 --workers 8 --seed 0 --out MKT03.sol --log MKT03.csv > MKT03.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT04.json --time 600 --workers 8 --seed 0 --out MKT04.sol --log MKT04.csv > MKT04.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT05.json --time 600 --workers 8 --seed 0 --out MKT05.sol --log MKT05.csv > MKT05.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT06.json --time 600 --workers 8 --seed 0 --out MKT06.sol --log MKT06.csv > MKT06.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT07.json --time 600 --workers 8 --seed 0 --out MKT07.sol --log MKT07.csv > MKT07.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT08.json --time 600 --workers 8 --seed 0 --out MKT08.sol --log MKT08.csv > MKT08.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT09.json --time 600 --workers 8 --seed 0 --out MKT09.sol --log MKT09.csv > MKT09.out 2>&1
+python ../baseline_cpsat/cpsat_fjspt.py ../instances/MKT10.json --time 600 --workers 8 --seed 0 --out MKT10.sol --log MKT10.csv > MKT10.out 2>&1

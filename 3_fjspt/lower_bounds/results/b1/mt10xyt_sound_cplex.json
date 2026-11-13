@@ -1,0 +1,21 @@
+{
+ "instance": "mt10xyt",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "782",
+ "incumbent": "782",
+ "runtime": 0.02,
+ "nvars": 654,
+ "ncons": 709,
+ "u": 1,
+ "starts": {
+  "s_3": 2
+ },
+ "ends": {
+  "f_10": 2
+ },
+ "empty_into_0": 10,
+ "empty_time": "534"
+}

@@ -1,0 +1,3 @@
+[SFJST06 s1] run 1 t=31s runBest=324.0 best=324.0 it=100000000 feas=0.51
+[SFJST06 s1] run 2 t=59s runBest=324.0 best=324.0 it=200000000 feas=0.51
+[SFJST06 s1] run 3 t=60s runBest=324.0 best=324.0 it=201703936 feas=0.51

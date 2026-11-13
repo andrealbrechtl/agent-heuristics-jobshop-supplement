@@ -1,0 +1,22 @@
+{
+ "instance": "MKT10",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "459.5",
+ "incumbent": "459.5",
+ "runtime": 0.44,
+ "nvars": 3824,
+ "ncons": 3273,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_2": 1,
+  "f_3": 1
+ },
+ "empty_into_0": 18,
+ "empty_time": "101"
+}

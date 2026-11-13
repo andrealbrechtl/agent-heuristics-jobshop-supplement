@@ -1,0 +1,21 @@
+{
+ "instance": "SFJST08",
+ "variant": "sound",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "236",
+ "incumbent": "236",
+ "runtime": 0.01,
+ "nvars": 101,
+ "ncons": 99,
+ "u": 0,
+ "starts": {
+  "s_0": 1
+ },
+ "ends": {
+  "f_4": 1
+ },
+ "empty_into_0": 2,
+ "empty_time": "44"
+}

@@ -1,0 +1,21 @@
+{
+ "instance": "MKT08",
+ "variant": "sound_sp_abl-qpmin-nohead",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "662",
+ "incumbent": "662",
+ "runtime": 0.05,
+ "nvars": 1391,
+ "ncons": 1711,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_1": 2
+ },
+ "empty_into_0": 18,
+ "empty_time": "129.5"
+}

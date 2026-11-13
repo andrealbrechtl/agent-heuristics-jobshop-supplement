@@ -1,0 +1,22 @@
+{
+ "instance": "seti5xyzt",
+ "variant": "sound",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "1035",
+ "incumbent": "1035",
+ "runtime": 0.07,
+ "nvars": 1448,
+ "ncons": 1570,
+ "u": 1,
+ "starts": {
+  "s_1": 1,
+  "s_2": 1
+ },
+ "ends": {
+  "f_1": 2
+ },
+ "empty_into_0": 15,
+ "empty_time": "300"
+}

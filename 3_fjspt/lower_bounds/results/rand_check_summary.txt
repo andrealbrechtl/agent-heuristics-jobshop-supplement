@@ -1,0 +1,3 @@
+groups: {'T': {'n': 160, 'skipped': 0}, 'M': {'n': 146, 'skipped': 4}, 'S': {'n': 97, 'skipped': 3}}
+tight counts (bound == opt): {'b1': 255, 'b1_force': 255, 'b1_sp': 255, 'b3': 275}
+violations: 0

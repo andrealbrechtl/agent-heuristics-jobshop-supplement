@@ -1,0 +1,17 @@
+session,model,makespan,wall_min,cost_usd
+1,Claude Opus 5,527000,101.6,10.07
+2,Claude Opus 5,528142,137.4,13.19
+3,Claude Opus 5,530881,246.7,22.69
+4,Claude Opus 5,531925,140.6,10.77
+5,Claude Opus 5,532280,85.4,6.01
+6,Claude Opus 5,533386,84.5,4.56
+7,Claude Sonnet 5,535930,101.6,7.14
+8,Claude Sonnet 5,536067,296.3,13.20
+9,Claude Sonnet 5,537090,293.2,13.93
+10,Claude Sonnet 5,537428,83.4,6.53
+11,Claude Sonnet 5,541641,240.4,13.02
+12,Claude Sonnet 5,541642,283.6,14.92
+13,Claude Sonnet 5,541914,297.0,15.77
+14,Claude Sonnet 5,550902,300.0,n/a
+15,Claude Sonnet 5,554332,178.6,12.72
+16,Claude Sonnet 5,none,18.1,2.43

@@ -1,0 +1,10 @@
+{
+ "instance": "setb4xxxt",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "961",
+ "incumbent": "961",
+ "runtime": 1.99,
+ "hinted": true
+}

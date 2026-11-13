@@ -1,0 +1,30 @@
+[parse] behnke56: 100 jobs x 60 machines, 500 ops | machine ids 1..60 (1-indexed -> normalised to 0) | avg eligible/op 18.52 (header says 18.52)
+[   0.02s] makespan 422
+[   0.02s] makespan 411
+[   0.02s] makespan 409
+[   0.02s] makespan 408
+[   0.02s] makespan 407
+[   0.02s] makespan 406
+[   0.02s] makespan 405
+[   0.03s] makespan 404
+[   0.03s] makespan 402
+[   0.11s] makespan 401
+[   0.15s] makespan 400
+[   0.21s] makespan 399
+[   0.22s] makespan 398
+[   0.36s] makespan 397
+[   0.59s] makespan 396
+[   0.59s] makespan 395
+[   0.97s] makespan 394
+[   3.90s] makespan 393
+[  15.05s] makespan 392
+[  44.85s] makespan 391
+[  59.50s] makespan 390
+instance behnke56
+best_makespan 390
+time_to_best 59.50
+threads 4
+limit 150
+total_iterations 5582336
+iterations_per_sec_total 37208
+kept_candidates 800927063

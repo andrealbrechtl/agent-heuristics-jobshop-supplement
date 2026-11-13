@@ -1,0 +1,6 @@
+[parse] behnke57: 100 jobs x 60 machines, 500 ops, machine base 1; stage A yes (4 machines), stage C yes (4 machines)
+[warm] best/behnke57.sched: makespan 389
+[   26.92s] makespan 388 (worker 5)
+[  127.49s] makespan 387 (worker 5)
+[  521.35s] makespan 386 (worker 1)
+final best 386

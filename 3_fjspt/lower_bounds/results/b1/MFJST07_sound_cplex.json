@@ -1,0 +1,22 @@
+{
+ "instance": "MFJST07",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "814",
+ "incumbent": "814",
+ "runtime": 0.16,
+ "nvars": 413,
+ "ncons": 374,
+ "u": 1,
+ "starts": {
+  "s_3": 2
+ },
+ "ends": {
+  "f_1": 1,
+  "f_7": 1
+ },
+ "empty_into_0": 8,
+ "empty_time": "162"
+}

@@ -1,0 +1,2 @@
+behnke18: 100 jobs 20 machines, 5 pools, middle pools [1, 2, 3], relax=none mode=feas cap=400 pools=1 time=1200.0 workers=4
+FINAL status=UNKNOWN obj=None bound=None relax=none cap=400 wall=1200.3

@@ -1,0 +1,6 @@
+[seti5xxxt] init from best/seti5xxxt.sol: 1350.0
+[seti5xxxt s401] run 1 t=267s runBest=1330.0 best=1330.0 it=40000000 feas=0.58
+[seti5xxxt s401] run 2 t=524s runBest=1347.0 best=1330.0 it=80000000 feas=0.57
+[seti5xxxt s401] run 3 t=777s runBest=1356.0 best=1330.0 it=120000000 feas=0.57
+[seti5xxxt s401] run 4 t=1034s runBest=1344.0 best=1330.0 it=160000000 feas=0.57
+[seti5xxxt s401] run 5 t=1200s runBest=1429.0 best=1330.0 it=186148864 feas=0.57

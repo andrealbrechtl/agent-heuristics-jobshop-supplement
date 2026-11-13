@@ -1,0 +1,26 @@
+greedy start makespan 224.0
+hint completed and accepted by the model
+[    2.57s] makespan 224.0  bound 45.0
+[    3.44s] makespan 222.0  bound 45.0
+[    3.90s] makespan 207.0  bound 53.0
+[    5.79s] makespan 205.0  bound 53.0
+[    5.95s] makespan 189.0  bound 53.0
+[    6.16s] makespan 187.5  bound 53.5
+[    6.60s] makespan 187.0  bound 53.5
+[    7.15s] makespan 184.0  bound 53.5
+[    8.47s] makespan 181.0  bound 53.5
+[   15.51s] makespan 180.0  bound 57.0
+[   16.18s] makespan 179.0  bound 57.0
+[   78.36s] makespan 177.0  bound 59.0
+[  117.42s] makespan 174.0  bound 60.0
+[  183.99s] makespan 169.0  bound 60.0
+[  184.38s] makespan 168.0  bound 60.0
+[  190.74s] makespan 165.0  bound 60.0
+[  206.27s] makespan 164.0  bound 60.0
+[  206.65s] makespan 163.0  bound 60.0
+[  242.61s] makespan 162.0  bound 60.0
+[  375.91s] makespan 159.0  bound 60.5
+[  377.87s] makespan 158.0  bound 60.5
+[  379.21s] makespan 156.0  bound 60.5
+status FEASIBLE wall 600.1
+best makespan 156.0  bound 61.0

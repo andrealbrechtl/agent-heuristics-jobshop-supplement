@@ -1,0 +1,4 @@
+behnke17: 100 jobs 20 machines, 5 pools, middle pools [1, 2, 3], relax=none mode=min cap=403 pools=1 time=600.0 workers=8
+hint loaded: 500 operations from best/behnke17.sched (makespan 403)
+11.02 sol 403 bound 389
+FINAL status=FEASIBLE obj=403 bound=390 relax=none cap=403 wall=600.3

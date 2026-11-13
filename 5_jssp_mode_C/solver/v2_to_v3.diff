@@ -1,0 +1,28 @@
+--- csp_protC_v2.c	2026-10-20 13:14:59.648589728 -0300
++++ csp_protC_v3.c	2026-10-20 13:14:59.650033770 -0300
+@@ -29,6 +29,7 @@
+ static int rawseed = 0;
+ static int DESCENT = 0;
+ static long long bestdumped = 1LL << 60;
++static int KN = 4, KW = 2000;
+ static int ILS = 0, ILSRR = 30, ILSK = 4, ILSW = 1500, ILSACC = 0; static long long ILSDESC = 3000, RREVERY = 0;
+ static int LB, T;
+ static int verbose = 0, NOISE = 8;
+@@ -399,7 +400,7 @@
+         if (!ok) continue;
+         if (d < bestd || (d == bestd && (rnd() & 1))) { bestd = d; bi = c; }
+     }
+-    if (bi < 0) { if (mw[k] < 1000000) mw[k]++; if (!DESCENT) kick(4, 2000); return; }
++    if (bi < 0) { if (mw[k] < 1000000) mw[k]++; if (!DESCENT) kick(KN, KW); return; }
+     if (DESCENT && bestd >= 0 && !(bestd == 0 && (rnd() & 1))) { if (mw[k] < 1000000) mw[k]++; return; }
+     if ((rnd() % 100) < (unsigned)NOISE) {           /* noise: random legal option */
+         for (int tries = 0; tries < 6; tries++) {
+@@ -452,6 +453,8 @@
+     long long shakeit = argc > 10 ? atoll(argv[10]) : 200000LL;
+     if (getenv("JSPV")) verbose = 1;
+     if (getenv("DESCENT")) DESCENT = atoi(getenv("DESCENT"));
++    if (getenv("KN")) KN = atoi(getenv("KN"));
++    if (getenv("KW")) KW = atoi(getenv("KW"));
+     long long rrevery = getenv("RREVERY") ? atoll(getenv("RREVERY")) : 0;
+     if (getenv("ILS")) { ILS = 1; RREVERY = rrevery; rrevery = 0; }
+     if (getenv("ILSRR")) ILSRR = atoi(getenv("ILSRR"));

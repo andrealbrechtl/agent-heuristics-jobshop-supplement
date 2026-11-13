@@ -1,0 +1,22 @@
+{
+ "instance": "MFJST08",
+ "variant": "force",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "813",
+ "incumbent": "813",
+ "runtime": 0.1,
+ "nvars": 463,
+ "ncons": 415,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_2": 1,
+  "f_4": 1
+ },
+ "empty_into_0": 7,
+ "empty_time": "216"
+}

@@ -1,0 +1,3 @@
+behnke32: 50 jobs 40 machines, 10 pools, middle pools [1, 2, 3, 4, 5, 6, 7, 8], relax=none mode=feas cap=220 pools=1 time=900.0 workers=6
+413.15 feasible
+FINAL status=OPTIMAL obj=None bound=None relax=none cap=220 wall=413.2

@@ -1,0 +1,49 @@
+--- csp_protC_v3.c	2026-10-20 13:14:59.650033770 -0300
++++ csp_protC_v4.c	2026-10-20 13:14:59.651462931 -0300
+@@ -29,7 +29,7 @@
+ static int rawseed = 0;
+ static int DESCENT = 0;
+ static long long bestdumped = 1LL << 60;
+-static int KN = 4, KW = 2000;
++static int KN = 4, KW = 2000, KT = 0;
+ static int ILS = 0, ILSRR = 30, ILSK = 4, ILSW = 1500, ILSACC = 0; static long long ILSDESC = 3000, RREVERY = 0;
+ static int LB, T;
+ static int verbose = 0, NOISE = 8;
+@@ -400,7 +400,27 @@
+         if (!ok) continue;
+         if (d < bestd || (d == bestd && (rnd() & 1))) { bestd = d; bi = c; }
+     }
+-    if (bi < 0) { if (mw[k] < 1000000) mw[k]++; if (!DESCENT) kick(KN, KW); return; }
++    if (bi < 0) {
++        if (mw[k] < 1000000) mw[k]++;
++        if (DESCENT) return;
++        if (KT) {   /* targeted kick: the stuck pair and its machine neighbours */
++            for (int t = 0; t < KN; t++) {
++                int pos = i0 - 1 + rndint(4);
++                if (pos < 0 || pos >= N) continue;
++                int id = L[pos], j = id / M, o = opo[id];
++                int lo = LOv(j, o), hi = HIv(j, o);
++                if (hi <= lo) continue;
++                int tgt = st[id] + (rndint(2 * KW + 1) - KW);
++                if (tgt < lo) tgt = lo;
++                if (tgt > hi) tgt = hi;
++                ulog_n = 0;
++                if (tgt > st[id]) { if (!move_right(j, o, tgt)) undo(); }
++                else if (tgt < st[id]) { if (!move_left(j, o, tgt)) undo(); }
++                ulog_n = 0;
++            }
++        } else kick(KN, KW);
++        return;
++    }
+     if (DESCENT && bestd >= 0 && !(bestd == 0 && (rnd() & 1))) { if (mw[k] < 1000000) mw[k]++; return; }
+     if ((rnd() % 100) < (unsigned)NOISE) {           /* noise: random legal option */
+         for (int tries = 0; tries < 6; tries++) {
+@@ -455,6 +475,8 @@
+     if (getenv("DESCENT")) DESCENT = atoi(getenv("DESCENT"));
+     if (getenv("KN")) KN = atoi(getenv("KN"));
+     if (getenv("KW")) KW = atoi(getenv("KW"));
++    if (getenv("KT")) KT = atoi(getenv("KT"));
++    if (getenv("MAXDEPTH")) MAXDEPTH = atoi(getenv("MAXDEPTH"));
+     long long rrevery = getenv("RREVERY") ? atoll(getenv("RREVERY")) : 0;
+     if (getenv("ILS")) { ILS = 1; RREVERY = rrevery; rrevery = 0; }
+     if (getenv("ILSRR")) ILSRR = atoi(getenv("ILSRR"));

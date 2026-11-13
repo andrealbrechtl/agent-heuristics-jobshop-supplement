@@ -1,0 +1,12 @@
+NEWBEST t=0.000 cmax=497.0
+NEWBEST t=0.000 cmax=496.0
+NEWBEST t=0.000 cmax=478.0
+NEWBEST t=0.000 cmax=465.0
+NEWBEST t=0.000 cmax=427.0
+NEWBEST t=0.000 cmax=418.0
+NEWBEST t=0.000 cmax=409.0
+NEWBEST t=0.000 cmax=409.0
+NEWBEST t=0.000 cmax=409.0
+NEWBEST t=0.000 cmax=409.0
+[SFJST07 s3] run 1 t=31s runBest=409.0 best=409.0 it=100000000 feas=0.61
+[SFJST07 s3] run 2 t=60s runBest=409.0 best=409.0 it=177266944 feas=0.61

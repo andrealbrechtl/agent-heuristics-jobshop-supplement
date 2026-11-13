@@ -1,0 +1,192 @@
+log,instance,target_T,above_LB,family,domains,duration_s,min_overlap,feasible,time_to_feasible_s,iterations_to_feasible,feasible_makespan,date
+log_d4_527101.txt,4,527101,0,direct-target csp3 (no domains),False,600,77782,False,,,,2026-10-19 13:30
+log_d4_527601.txt,4,527601,500,direct-target csp3 (no domains),False,600,52883,False,,,,2026-10-19 13:30
+log_d9_528097.txt,9,528097,0,direct-target csp3 (no domains),False,600,58094,False,,,,2026-10-19 13:30
+log_d9_528597.txt,9,528597,500,direct-target csp3 (no domains),False,594,3000,True,545.2,51597378,528597,2026-10-19 13:30
+log_dA.txt,9,528097,0,ILS (descent + exact reroutes),True,600,1293,False,,,,2026-10-19 16:48
+log_dB.txt,9,528097,0,ILS (descent + exact reroutes),True,600,802,False,,,,2026-10-19 16:48
+log_dC.txt,9,528097,0,v1/v2: csp3 + propagated domains,True,600,13829,False,,,,2026-10-19 16:48
+log_dD.txt,9,528097,0,ILS (descent + exact reroutes),True,600,182852,False,,,,2026-10-19 16:48
+log_dL4_21.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,1800,32837,False,,,,2026-10-19 17:38
+log_dL4_22.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,1800,5991,False,,,,2026-10-19 17:38
+log_dL4_23.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,1800,62221,False,,,,2026-10-19 18:08
+log_dL4_24.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,1800,7152,False,,,,2026-10-19 18:08
+log_dL4_25.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,640,60950,False,,,,2026-10-19 18:19
+log_dL4_26.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,632,28844,False,,,,2026-10-19 18:19
+log_dL6_21.txt,6,522907,0,v1/v2: csp3 + propagated domains,True,1800,69328,False,,,,2026-10-19 17:38
+log_dL8_21.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,96091,False,,,,2026-10-19 17:38
+log_dL9_11.txt,9,528097,0,v1/v2: csp3 + propagated domains,True,1189,3343,False,,,,2026-10-19 17:08
+log_dL9_12.txt,9,528097,0,v1/v2: csp3 + propagated domains,True,1191,2874,False,,,,2026-10-19 17:08
+log_dL9_13.txt,9,528097,0,v1/v2: csp3 + propagated domains,True,1059,3592,True,1059.7,104107113,528097,2026-10-19 17:08
+log_dL9_14.txt,9,528097,0,v1/v2: csp3 + propagated domains,True,1184,4689,False,,,,2026-10-19 17:08
+log_dS4_41.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,672,53837,False,,,,2026-10-19 18:40
+log_dS4_42.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,666,22102,False,,,,2026-10-19 18:40
+log_dU1.txt,1,524300,2002,v1/v2: csp3 + propagated domains,True,617,65048,False,,,,2026-10-19 18:29
+log_dU6.txt,6,523900,993,v1/v2: csp3 + propagated domains,True,1800,24600,False,,,,2026-10-19 18:49
+log_dU8.txt,8,527400,972,v1/v2: csp3 + propagated domains,True,1800,29172,False,,,,2026-10-19 18:49
+log_e4_527101_2000000.txt,4,527101,0,csp3 + elitist restore (no domains),False,600,76826,False,,,,2026-10-19 13:41
+log_e4_527601_2000000.txt,4,527601,500,csp3 + elitist restore (no domains),False,600,58361,False,,,,2026-10-19 13:41
+log_e4_527601_6000000.txt,4,527601,500,csp3 + elitist restore (no domains),False,600,63677,False,,,,2026-10-19 13:41
+log_e9_528097_2000000.txt,9,528097,0,csp3 + elitist restore (no domains),False,600,51775,False,,,,2026-10-19 13:41
+log_fr6_523407.txt,6,523407,500,v1/v2: csp3 + propagated domains,True,1800,31956,False,,,,2026-10-20 01:07
+log_fr8_526678.txt,8,526678,250,v1/v2: csp3 + propagated domains,True,1800,74792,False,,,,2026-10-20 01:07
+log_fr8_526928.txt,8,526928,500,v1/v2: csp3 + propagated domains,True,1800,27333,False,,,,2026-10-20 01:07
+log_fr8_527428.txt,8,527428,1000,v1/v2: csp3 + propagated domains,True,1800,7759,False,,,,2026-10-20 01:07
+log_g_0_0.txt,4,527601,500,GLS breakout variant (no domains),False,300,37612177,False,,,,2026-10-19 14:07
+log_g_0_5000000.txt,4,527601,500,GLS breakout variant (no domains),False,300,37612177,False,,,,2026-10-19 14:07
+log_g_20_0.txt,4,527601,500,GLS breakout variant (no domains),False,300,28044714,False,,,,2026-10-19 14:07
+log_g_20_5000000.txt,4,527601,500,GLS breakout variant (no domains),False,300,28044714,False,,,,2026-10-19 14:07
+log_iD4.txt,4,527101,0,ILS (descent + exact reroutes),True,1800,1533,False,,,,2026-10-19 18:38
+log_ils8.txt,8,526428,0,ILS (descent + exact reroutes),True,1882,311,False,,,,2026-10-20 09:00
+log_ils9_10_1000_0.txt,9,528097,0,ILS (descent + exact reroutes),False,600,129,False,,,,2026-10-19 16:04
+log_ils9_30_1000_0.txt,9,528097,0,ILS (descent + exact reroutes),False,600,346,False,,,,2026-10-19 16:04
+log_ils9_30_1000_5.txt,9,528097,0,ILS (descent + exact reroutes),False,600,323,False,,,,2026-10-19 16:04
+log_ils9_60_3000_0.txt,9,528097,0,ILS (descent + exact reroutes),False,600,544,False,,,,2026-10-19 16:04
+log_ilsL9_0_1000_3.txt,9,528097,0,ILS (descent + exact reroutes),False,1800,78,False,,,,2026-10-19 16:34
+log_ilsL9_10_1000_3.txt,9,528097,0,ILS (descent + exact reroutes),False,1800,117,False,,,,2026-10-19 16:34
+log_ilsL9_10_1000_4.txt,9,528097,0,ILS (descent + exact reroutes),False,1800,78,False,,,,2026-10-19 16:34
+log_ilsL9_10_300_3.txt,9,528097,0,ILS (descent + exact reroutes),False,1800,276,False,,,,2026-10-19 16:34
+log_kk8_1_500.txt,8,527428,1000,"v3: domains + kick size (KN,KW)",True,1437,15697,False,,,,2026-10-20 02:02
+log_kk8_2_1000.txt,8,527428,1000,"v3: domains + kick size (KN,KW)",True,1449,4790,True,1421.5,125010642,527428,2026-10-20 02:03
+log_ks_1_1000_0.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,27703,False,,,,2026-10-20 04:24
+log_ks_1_300_1.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,18247,False,,,,2026-10-20 04:44
+log_ks_1_500_0.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,36058,False,,,,2026-10-20 04:24
+log_ks_2_1000_0.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,46932,False,,,,2026-10-20 04:24
+log_ks_2_1000_1.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,22852,False,,,,2026-10-20 04:44
+log_ks_2_2000_1.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,23445,False,,,,2026-10-20 04:44
+log_ks_2_500_0.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,31513,False,,,,2026-10-20 04:24
+log_ks_4_500_1.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,23575,False,,,,2026-10-20 04:44
+log_md2_45_1_300.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,25241,False,,,,2026-10-20 05:25
+log_md2_60_1_150.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,24574,False,,,,2026-10-20 05:25
+log_md2_60_2_300.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,24767,False,,,,2026-10-20 05:25
+log_md2_80_1_300.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,62984,False,,,,2026-10-20 05:25
+log_md_150.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,166918,False,,,,2026-10-20 05:05
+log_md_30.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,69573,False,,,,2026-10-20 05:05
+log_md_400.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,245663,False,,,,2026-10-20 05:05
+log_md_60.txt,8,526428,0,v4: domains + targeted kick scan,True,1200,18247,False,,,,2026-10-20 05:05
+log_n2a.txt,2,530375,0,"csp3 + whole-job reroute (nego, no domains)",False,124,547,True,124.2,11644392,530375,2026-10-19 13:20
+log_n2c.txt,2,530375,0,direct-target csp3 (no domains),False,46,3726,True,46.7,4517119,530375,2026-10-19 13:20
+log_n4a.txt,4,527101,0,"csp3 + whole-job reroute (nego, no domains)",False,600,83439,False,,,,2026-10-19 13:20
+log_n4b.txt,4,527101,0,"csp3 + whole-job reroute (nego, no domains)",False,600,102973,False,,,,2026-10-19 13:20
+log_nd4a.txt,4,527101,0,"csp3 + whole-job reroute (nego, no domains)",False,600,51506,False,,,,2026-10-19 14:17
+log_nd4b.txt,4,527101,0,"csp3 + whole-job reroute (nego, no domains)",False,600,78991,False,,,,2026-10-19 14:17
+log_ns8_a.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,1835,15488,False,,,,2026-10-20 10:34
+log_ns8_b.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,1839,11761,False,,,,2026-10-20 10:34
+log_nz8_1.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,57443,False,,,,2026-10-20 00:35
+log_nz8_2.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,33546,False,,,,2026-10-20 00:35
+log_nz8_3.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,92515,False,,,,2026-10-20 00:35
+log_nz8_4.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,70438,False,,,,2026-10-20 00:35
+log_p_0_1000000.txt,4,527601,500,csp3 noise/shake tuning (no domains),False,300,71863,False,,,,2026-10-19 13:46
+log_p_2_200000.txt,4,527601,500,csp3 noise/shake tuning (no domains),False,300,54918,False,,,,2026-10-19 13:46
+log_p_2_2000000.txt,4,527601,500,csp3 noise/shake tuning (no domains),False,300,70199,False,,,,2026-10-19 13:46
+log_p_8_2000000.txt,4,527601,500,csp3 noise/shake tuning (no domains),False,300,68273,False,,,,2026-10-19 13:46
+log_pf2.txt,2,530375,0,PathFinder negotiated congestion,False,302,22793,False,,,,2026-10-19 12:39
+log_pf3_0.3_1.1_2.txt,3,530560,0,PathFinder negotiated congestion,False,296,49268,False,,,,2026-10-19 12:27
+log_pf3_0.5_1.05_0.5.txt,3,530560,0,PathFinder negotiated congestion,False,295,19501,False,,,,2026-10-19 12:27
+log_pf3_1_1.02_1.txt,3,530560,0,PathFinder negotiated congestion,False,293,190634,False,,,,2026-10-19 12:27
+log_pf3_1_1.0_0.3.txt,3,530560,0,PathFinder negotiated congestion,False,294,54758,False,,,,2026-10-19 12:27
+log_pf4.txt,4,527101,0,PathFinder negotiated congestion,False,299,38061,False,,,,2026-10-19 12:39
+log_pf4_601.txt,4,527601,500,PathFinder negotiated congestion,False,603,7868,False,,,,2026-10-19 14:17
+log_pf9_LB.txt,9,528097,0,PathFinder negotiated congestion,False,602,3456,False,,,,2026-10-19 14:17
+log_pfC_20_2.txt,4,527101,0,PathFinder negotiated congestion,False,903,20726,False,,,,2026-10-19 14:02
+log_pfC_2_2.txt,4,527101,0,PathFinder negotiated congestion,False,901,65895,False,,,,2026-10-19 14:02
+log_pfC_5_2.txt,4,527101,0,PathFinder negotiated congestion,False,902,36322,False,,,,2026-10-19 14:02
+log_pfC_5_4.txt,4,527101,0,PathFinder negotiated congestion,False,903,37339,False,,,,2026-10-19 14:02
+log_pfD4.txt,4,527101,0,PathFinder negotiated congestion,False,640,42208,False,,,,2026-10-19 18:19
+log_pfF_9frz.txt,9,528097,0,PathFinder negotiated congestion,False,720,72249,False,,,,2026-10-19 15:43
+log_pfF_9nofrz.txt,9,528097,0,PathFinder negotiated congestion,False,719,1388,False,,,,2026-10-19 15:43
+log_pfH_4_601.txt,4,527601,500,PathFinder negotiated congestion,False,1599,1470,False,,,,2026-10-19 15:43
+log_pfH_6_1000.txt,6,523907,1000,PathFinder negotiated congestion,False,730,39449,False,,,,2026-10-19 15:29
+log_pfH_8_1000.txt,8,527428,1000,PathFinder negotiated congestion,False,731,40483,False,,,,2026-10-19 15:29
+log_pfH_9LB.txt,9,528097,0,PathFinder negotiated congestion,False,1598,270,False,,,,2026-10-19 15:43
+log_pfL_4c4.txt,4,527101,0,PathFinder negotiated congestion,False,1209,30331,False,,,,2026-10-19 13:10
+log_pfL_4w2.txt,4,527101,0,PathFinder negotiated congestion,False,1181,22141,False,,,,2026-10-19 13:10
+log_pfL_4w4h1.txt,4,527101,0,PathFinder negotiated congestion,False,1180,45628,False,,,,2026-10-19 13:10
+log_pfL_9w4.txt,9,528097,0,PathFinder negotiated congestion,False,1190,19261,False,,,,2026-10-19 13:10
+log_pfW_4a.txt,4,527601,500,PathFinder negotiated congestion,False,654,1282,False,,,,2026-10-19 15:54
+log_pfW_4b.txt,4,527601,500,PathFinder negotiated congestion,False,654,18255,False,,,,2026-10-19 15:54
+log_pfW_9a.txt,9,528097,0,PathFinder negotiated congestion,False,654,129,False,,,,2026-10-19 15:54
+log_pfW_9b.txt,9,528097,0,PathFinder negotiated congestion,False,655,3288,False,,,,2026-10-19 15:54
+log_pfX4_601.txt,4,527601,500,PathFinder negotiated congestion,False,1305,5504,False,,,,2026-10-19 14:40
+log_pfX4_LB.txt,4,527101,0,PathFinder negotiated congestion,False,1309,24576,False,,,,2026-10-19 14:40
+log_pfX6_LB.txt,6,522907,0,PathFinder negotiated congestion,False,1310,52525,False,,,,2026-10-19 14:40
+log_pfX9_LB.txt,9,528097,0,PathFinder negotiated congestion,False,1306,3854,False,,,,2026-10-19 14:40
+log_pfY_4_0_1.txt,4,527601,500,PathFinder negotiated congestion,False,900,1964,False,,,,2026-10-19 14:55
+log_pfY_4_1500_0.3.txt,4,527601,500,PathFinder negotiated congestion,False,904,4349,False,,,,2026-10-19 14:55
+log_pfY_9_0_1.txt,9,528097,0,PathFinder negotiated congestion,False,903,3314,False,,,,2026-10-19 14:55
+log_pfY_9_1500_1.txt,9,528097,0,PathFinder negotiated congestion,False,903,1889,False,,,,2026-10-19 14:55
+log_pfZ_4_30.txt,4,527601,500,PathFinder negotiated congestion,False,904,1376,False,,,,2026-10-19 15:10
+log_pfZ_4_300.txt,4,527601,500,PathFinder negotiated congestion,False,903,1376,False,,,,2026-10-19 15:10
+log_pfZ_9_30.txt,9,528097,0,PathFinder negotiated congestion,False,904,1957,False,,,,2026-10-19 15:10
+log_pfZ_9_300.txt,9,528097,0,PathFinder negotiated congestion,False,904,174,False,,,,2026-10-19 15:10
+log_q9a.txt,9,528097,0,polish of PathFinder state,False,300,54962,False,,,,2026-10-19 15:16
+log_q9b.txt,9,528097,0,polish of PathFinder state,False,300,63991,False,,,,2026-10-19 15:16
+log_q9c.txt,9,528097,0,polish of PathFinder state,False,300,1596,False,,,,2026-10-19 15:16
+log_q9d.txt,9,528097,0,polish of PathFinder state,False,303,163,False,,,,2026-10-19 15:16
+log_r4_101.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,1705,11832,False,,,,2026-10-19 20:11
+log_r4_102.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,1704,12129,False,,,,2026-10-19 20:11
+log_r4_103.txt,4,527101,0,v1/v2: csp3 + propagated domains,True,1693,1530,True,1693.9,160780724,527101,2026-10-19 20:11
+log_race_k6k_959942.txt,6,522907,0,v3: domains + kick KN=2 KW=1000 (race),True,1792,57657,False,,,,2026-10-20 02:32
+log_race_k6k_959943.txt,6,522907,0,v3: domains + kick KN=2 KW=1000 (race),True,3591,42441,False,,,,2026-10-20 03:02
+log_race_k6k_959944.txt,6,522907,0,v3: domains + kick KN=2 KW=1000 (race),True,1789,47139,False,,,,2026-10-20 03:02
+log_race_k6k_959945.txt,6,522907,0,v3: domains + kick KN=2 KW=1000 (race),True,51,144411,False,,,,2026-10-20 03:03
+log_race_k6k_959946.txt,6,522907,0,v3: domains + kick KN=2 KW=1000 (race),True,51,183617,False,,,,2026-10-20 03:03
+log_race_k6t2_959942.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,3592,29254,False,,,,2026-10-20 06:25
+log_race_k6t2_959943.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,4790,16981,False,,,,2026-10-20 06:45
+log_race_k6t2_959944.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,1790,29599,False,,,,2026-10-20 06:55
+log_race_k6t2_959945.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,2494,24920,False,,,,2026-10-20 07:27
+log_race_k6t2_959946.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,1893,25543,False,,,,2026-10-20 07:27
+log_race_k6t_959942.txt,6,522907,0,v4: domains + targeted kick scan,True,3632,36928,False,,,,2026-10-20 04:04
+log_race_k6t_959943.txt,6,522907,0,v4: domains + targeted kick scan,True,3627,38730,False,,,,2026-10-20 04:04
+log_race_k6u_959942.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,3693,29254,False,,,,2026-10-20 08:29
+log_race_k6u_959943.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,3701,16981,False,,,,2026-10-20 08:29
+log_race_k6v_946443.txt,6,522907,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,12934,13105,False,,,,2026-10-20 12:04
+log_race_k8k_421887.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,1798,48949,False,,,,2026-10-20 02:32
+log_race_k8k_421888.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,2393,9774,False,,,,2026-10-20 02:42
+log_race_k8k_421889.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,1192,54010,False,,,,2026-10-20 02:52
+log_race_k8k_421890.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,1189,55062,False,,,,2026-10-20 03:02
+log_race_k8k_421891.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,654,47174,False,,,,2026-10-20 03:03
+log_race_k8k_421892.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,51,132139,False,,,,2026-10-20 03:03
+log_race_k8m_421887.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,1799,48949,False,,,,2026-10-20 03:33
+log_race_k8m_421888.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,3589,9774,False,,,,2026-10-20 04:03
+log_race_k8m_421889.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,1199,54010,False,,,,2026-10-20 03:53
+log_race_k8m_421890.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,631,82081,False,,,,2026-10-20 04:04
+log_race_k8m_421891.txt,8,526428,0,v3: domains + kick KN=2 KW=1000 (race),True,25,152342,False,,,,2026-10-20 04:04
+log_race_k8t_421887.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,4793,7183,False,,,,2026-10-20 06:45
+log_race_k8t_421888.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,5993,1051,False,,,,2026-10-20 07:05
+log_race_k8t_421889.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,1799,7757,False,,,,2026-10-20 07:15
+log_race_k8t_421890.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,1295,13605,False,,,,2026-10-20 07:27
+log_race_k8t_421891.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,690,22848,False,,,,2026-10-20 07:27
+log_race_k8u_243572.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,5732,4607,False,,,,2026-10-20 09:03
+log_race_k8w_18897.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,5391,2671,False,,,,2026-10-20 12:04
+log_race_k8w_18898.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,5382,6431,False,,,,2026-10-20 12:04
+log_race_k8w_18899.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,5389,4588,False,,,,2026-10-20 12:04
+log_res8.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,5728,371,False,,,,2026-10-20 09:02
+log_rk6_6011.txt,6,522907,0,v1/v2: csp3 + propagated domains,True,3600,54182,False,,,,2026-10-19 21:21
+log_rk6_6012.txt,6,522907,0,v1/v2: csp3 + propagated domains,True,3600,47442,False,,,,2026-10-19 21:21
+log_rk6_6021.txt,6,522907,0,v1/v2: csp3 + propagated domains,True,3600,51684,False,,,,2026-10-19 22:21
+log_rk6_6022.txt,6,522907,0,v1/v2: csp3 + propagated domains,True,3600,80030,False,,,,2026-10-19 22:21
+log_rk6_6031.txt,6,522907,0,v1/v2: csp3 + propagated domains,True,3600,56596,False,,,,2026-10-19 23:21
+log_rk6_6032.txt,6,522907,0,v1/v2: csp3 + propagated domains,True,3600,80147,False,,,,2026-10-19 23:21
+log_rk8_8011.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,3600,135021,False,,,,2026-10-19 21:21
+log_rk8_8012.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,3600,47179,False,,,,2026-10-19 21:21
+log_rk8_8021.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,3600,25784,False,,,,2026-10-19 22:21
+log_rk8_8022.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,3600,95015,False,,,,2026-10-19 22:21
+log_rk8_8031.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,3600,24269,False,,,,2026-10-19 23:21
+log_rk8_8032.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,3600,33463,False,,,,2026-10-19 23:21
+log_rs8_1.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,5513,374,False,,,,2026-10-20 10:35
+log_rs8_2.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,3665,294,False,,,,2026-10-20 10:04
+log_rs8_3.txt,8,526428,0,"v4 tuned: domains + targeted kick 1x300, depth 50",True,3660,294,False,,,,2026-10-20 10:04
+log_sa_4a.txt,4,527101,0,simulated-annealing variant (domains),True,629,151689,False,,,,2026-10-20 01:38
+log_sa_4b.txt,4,527101,0,simulated-annealing variant (domains),True,631,153452,False,,,,2026-10-20 01:38
+log_sa_8a.txt,8,527428,1000,simulated-annealing variant (domains),True,632,133457,False,,,,2026-10-20 01:38
+log_sa_8b.txt,8,527428,1000,simulated-annealing variant (domains),True,593,144848,False,,,,2026-10-20 01:27
+log_sa_8c.txt,8,527428,1000,simulated-annealing variant (domains),True,626,68508,False,,,,2026-10-20 01:38
+log_sk8_1.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,98082,False,,,,2026-10-20 00:05
+log_sk8_2.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,102965,False,,,,2026-10-20 00:05
+log_sk8_3.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,97617,False,,,,2026-10-20 00:05
+log_sk8_4.txt,8,526428,0,v1/v2: csp3 + propagated domains,True,1800,38526,False,,,,2026-10-20 00:05
+log_tabu_0.txt,4,527101,0,tabu variant (domains),True,600,63323,False,,,,2026-10-19 23:31
+log_tabu_2000.txt,4,527101,0,tabu variant (domains),True,600,224259,False,,,,2026-10-19 23:31
+log_tabu_300.txt,4,527101,0,tabu variant (domains),True,600,52765,False,,,,2026-10-19 23:31
+log_tabu_50.txt,4,527101,0,tabu variant (domains),True,600,33685,False,,,,2026-10-19 23:31

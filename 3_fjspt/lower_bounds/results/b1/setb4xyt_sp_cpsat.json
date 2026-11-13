@@ -1,0 +1,23 @@
+{
+ "instance": "setb4xyt",
+ "variant": "sound_sp",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "882",
+ "incumbent": "882",
+ "runtime": 0.04,
+ "nvars": 879,
+ "ncons": 1037,
+ "u": 1,
+ "starts": {
+  "s_0": 1,
+  "s_2": 1
+ },
+ "ends": {
+  "f_3": 1,
+  "f_9": 1
+ },
+ "empty_into_0": 14,
+ "empty_time": "152"
+}

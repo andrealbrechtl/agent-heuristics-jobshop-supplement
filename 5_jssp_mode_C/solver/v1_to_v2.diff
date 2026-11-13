@@ -1,0 +1,20 @@
+--- csp_protC_v1.c	2026-10-20 13:14:59.647151607 -0300
++++ csp_protC_v2.c	2026-10-20 13:14:59.648589728 -0300
+@@ -28,6 +28,7 @@
+ static long long bestmk = -1;
+ static int rawseed = 0;
+ static int DESCENT = 0;
++static long long bestdumped = 1LL << 60;
+ static int ILS = 0, ILSRR = 30, ILSK = 4, ILSW = 1500, ILSACC = 0; static long long ILSDESC = 3000, RREVERY = 0;
+ static int LB, T;
+ static int verbose = 0, NOISE = 8;
+@@ -546,6 +547,9 @@
+                 for (int q = 0; q < M; q++) mw[q] = 1;
+                 nkick++;
+             }
++            if ((it & 0x3FFFF) == 0 && getenv("BESTDUMP") && TOT < bestdumped) {
++                bestdumped = TOT; write_solution(getenv("BESTDUMP"), st);
++            }
+             if ((it & 0xFFFFF) == 0) {
+                 if (verbose)
+                     fprintf(stderr, "  T=%d it=%lldM conf=%d amt=%lld shk=%lld rr=%lld/%lld (%.0fs)\n",

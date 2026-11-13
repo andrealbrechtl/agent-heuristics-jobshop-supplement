@@ -1,0 +1,366 @@
+[
+ {
+  "instance": "behnke1",
+  "tabu120": 90,
+  "tabu120_ttb": 0.2
+ },
+ {
+  "instance": "behnke2",
+  "tabu120": 91,
+  "tabu120_ttb": 0.1
+ },
+ {
+  "instance": "behnke3",
+  "tabu120": 91,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke4",
+  "tabu120": 97,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke5",
+  "tabu120": 91,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke6",
+  "tabu120": 126,
+  "tabu120_ttb": 3.0
+ },
+ {
+  "instance": "behnke7",
+  "tabu120": 125,
+  "tabu120_ttb": 0.4,
+  "tabu1200": 125,
+  "tabu1200_ttb": 2.9
+ },
+ {
+  "instance": "behnke8",
+  "tabu120": 124,
+  "tabu120_ttb": 4.1
+ },
+ {
+  "instance": "behnke9",
+  "tabu120": 127,
+  "tabu120_ttb": 0.3
+ },
+ {
+  "instance": "behnke10",
+  "tabu120": 127,
+  "tabu120_ttb": 5.3
+ },
+ {
+  "instance": "behnke11",
+  "tabu120": 231,
+  "tabu120_ttb": 11.6,
+  "tabu1200": 231,
+  "tabu1200_ttb": 35.4
+ },
+ {
+  "instance": "behnke12",
+  "tabu120": 220,
+  "tabu120_ttb": 4.1,
+  "tabu1200": 221,
+  "tabu1200_ttb": 10.6
+ },
+ {
+  "instance": "behnke13",
+  "tabu120": 229,
+  "tabu120_ttb": 18.6,
+  "tabu1200": 230,
+  "tabu1200_ttb": 10.8
+ },
+ {
+  "instance": "behnke14",
+  "tabu120": 231,
+  "tabu120_ttb": 104.7,
+  "tabu1200": 234,
+  "tabu1200_ttb": 7.9
+ },
+ {
+  "instance": "behnke15",
+  "tabu120": 229,
+  "tabu120_ttb": 16.1,
+  "tabu1200": 231,
+  "tabu1200_ttb": 22.3
+ },
+ {
+  "instance": "behnke16",
+  "tabu120": 408,
+  "tabu120_ttb": 38.2,
+  "tabu1200": 410,
+  "tabu1200_ttb": 719.1
+ },
+ {
+  "instance": "behnke17",
+  "tabu120": 407,
+  "tabu120_ttb": 8.7,
+  "tabu1200": 404,
+  "tabu1200_ttb": 89.1
+ },
+ {
+  "instance": "behnke18",
+  "tabu120": 406,
+  "tabu120_ttb": 9.6,
+  "tabu1200": 401,
+  "tabu1200_ttb": 304.8
+ },
+ {
+  "instance": "behnke19",
+  "tabu120": 403,
+  "tabu120_ttb": 63.8,
+  "tabu1200": 403,
+  "tabu1200_ttb": 431.0
+ },
+ {
+  "instance": "behnke20",
+  "tabu120": 404,
+  "tabu120_ttb": 10.3,
+  "tabu1200": 402,
+  "tabu1200_ttb": 137.4
+ },
+ {
+  "instance": "behnke21",
+  "tabu120": 85,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke22",
+  "tabu120": 87,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke23",
+  "tabu120": 85,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke24",
+  "tabu120": 87,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke25",
+  "tabu120": 87,
+  "tabu120_ttb": 0.2
+ },
+ {
+  "instance": "behnke26",
+  "tabu120": 114,
+  "tabu120_ttb": 14.4
+ },
+ {
+  "instance": "behnke27",
+  "tabu120": 123,
+  "tabu120_ttb": 37.0
+ },
+ {
+  "instance": "behnke28",
+  "tabu120": 115,
+  "tabu120_ttb": 0.4
+ },
+ {
+  "instance": "behnke29",
+  "tabu120": 117,
+  "tabu120_ttb": 41.1,
+  "tabu1200": 117,
+  "tabu1200_ttb": 32.4
+ },
+ {
+  "instance": "behnke30",
+  "tabu120": 121,
+  "tabu120_ttb": 15.8
+ },
+ {
+  "instance": "behnke31",
+  "tabu120": 229,
+  "tabu120_ttb": 3.2
+ },
+ {
+  "instance": "behnke32",
+  "tabu120": 223,
+  "tabu120_ttb": 27.4,
+  "tabu1200": 225,
+  "tabu1200_ttb": 87.8
+ },
+ {
+  "instance": "behnke33",
+  "tabu120": 226,
+  "tabu120_ttb": 17.1,
+  "tabu1200": 225,
+  "tabu1200_ttb": 431.8
+ },
+ {
+  "instance": "behnke34",
+  "tabu120": 221,
+  "tabu120_ttb": 6.6,
+  "tabu1200": 222,
+  "tabu1200_ttb": 151.3
+ },
+ {
+  "instance": "behnke35",
+  "tabu120": 214,
+  "tabu120_ttb": 6.0,
+  "tabu1200": 214,
+  "tabu1200_ttb": 27.0
+ },
+ {
+  "instance": "behnke36",
+  "tabu120": 391,
+  "tabu120_ttb": 6.6,
+  "tabu1200": 390,
+  "tabu1200_ttb": 718.8
+ },
+ {
+  "instance": "behnke37",
+  "tabu120": 395,
+  "tabu120_ttb": 8.5,
+  "tabu1200": 394,
+  "tabu1200_ttb": 23.6
+ },
+ {
+  "instance": "behnke38",
+  "tabu120": 391,
+  "tabu120_ttb": 58.2,
+  "tabu1200": 389,
+  "tabu1200_ttb": 281.5
+ },
+ {
+  "instance": "behnke39",
+  "tabu120": 393,
+  "tabu120_ttb": 7.7,
+  "tabu1200": 390,
+  "tabu1200_ttb": 398.8
+ },
+ {
+  "instance": "behnke40",
+  "tabu120": 418,
+  "tabu120_ttb": 58.6,
+  "tabu1200": 417,
+  "tabu1200_ttb": 118.6
+ },
+ {
+  "instance": "behnke41",
+  "tabu120": 87,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke42",
+  "tabu120": 87,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke43",
+  "tabu120": 86,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke44",
+  "tabu120": 84,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke45",
+  "tabu120": 87,
+  "tabu120_ttb": 0.0
+ },
+ {
+  "instance": "behnke46",
+  "tabu120": 115,
+  "tabu120_ttb": 12.4
+ },
+ {
+  "instance": "behnke47",
+  "tabu120": 117,
+  "tabu120_ttb": 27.3
+ },
+ {
+  "instance": "behnke48",
+  "tabu120": 126,
+  "tabu120_ttb": 0.1,
+  "tabu1200": 125,
+  "tabu1200_ttb": 101.3
+ },
+ {
+  "instance": "behnke49",
+  "tabu120": 114,
+  "tabu120_ttb": 0.2
+ },
+ {
+  "instance": "behnke50",
+  "tabu120": 124,
+  "tabu120_ttb": 0.1
+ },
+ {
+  "instance": "behnke51",
+  "tabu120": 222,
+  "tabu120_ttb": 1.9,
+  "tabu1200": 220,
+  "tabu1200_ttb": 518.1
+ },
+ {
+  "instance": "behnke52",
+  "tabu120": 214,
+  "tabu120_ttb": 3.7,
+  "tabu1200": 214,
+  "tabu1200_ttb": 1.9
+ },
+ {
+  "instance": "behnke53",
+  "tabu120": 215,
+  "tabu120_ttb": 1.3,
+  "tabu1200": 214,
+  "tabu1200_ttb": 92.5
+ },
+ {
+  "instance": "behnke54",
+  "tabu120": 227,
+  "tabu120_ttb": 41.1,
+  "tabu1200": 225,
+  "tabu1200_ttb": 22.6
+ },
+ {
+  "instance": "behnke55",
+  "tabu120": 224,
+  "tabu120_ttb": 19.9,
+  "tabu1200": 222,
+  "tabu1200_ttb": 42.0
+ },
+ {
+  "instance": "behnke56",
+  "tabu120": 388,
+  "tabu120_ttb": 102.5,
+  "tabu1200": 386,
+  "tabu1200_ttb": 749.3
+ },
+ {
+  "instance": "behnke57",
+  "tabu120": 390,
+  "tabu120_ttb": 29.5,
+  "tabu1200": 389,
+  "tabu1200_ttb": 18.0
+ },
+ {
+  "instance": "behnke58",
+  "tabu120": 398,
+  "tabu120_ttb": 40.6,
+  "tabu1200": 397,
+  "tabu1200_ttb": 42.8
+ },
+ {
+  "instance": "behnke59",
+  "tabu120": 396,
+  "tabu120_ttb": 63.0,
+  "tabu1200": 396,
+  "tabu1200_ttb": 4.3
+ },
+ {
+  "instance": "behnke60",
+  "tabu120": 402,
+  "tabu120_ttb": 0.4,
+  "tabu1200": 400,
+  "tabu1200_ttb": 173.3
+ }
+]

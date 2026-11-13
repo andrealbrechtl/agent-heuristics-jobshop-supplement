@@ -1,0 +1,25 @@
+{
+ "instance": "behnke7",
+ "status": "UNKNOWN",
+ "obj": null,
+ "bound": null,
+ "relax": "none",
+ "mode": "feas",
+ "strong": 0,
+ "params": [],
+ "cap": 124,
+ "pools": 0,
+ "time": 1200.0,
+ "workers": 4,
+ "seed": 9,
+ "wall": 1200.1,
+ "hint": null,
+ "hint_makespan": null,
+ "trace": [],
+ "n_pools": 5,
+ "middle_pools": [
+  1,
+  2,
+  3
+ ]
+}

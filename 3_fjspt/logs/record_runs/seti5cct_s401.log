@@ -1,0 +1,6 @@
+[seti5cct] init from best/seti5cct.sol: 1293.0
+[seti5cct s401] run 1 t=272s runBest=1293.0 best=1293.0 it=40000000 feas=0.61
+[seti5cct s401] run 2 t=542s runBest=1294.0 best=1293.0 it=80000000 feas=0.61
+[seti5cct s401] run 3 t=805s runBest=1287.0 best=1287.0 it=120000000 feas=0.61
+[seti5cct s401] run 4 t=1074s runBest=1339.0 best=1287.0 it=160000000 feas=0.61
+[seti5cct s401] run 5 t=1200s runBest=1527.0 best=1287.0 it=179267584 feas=0.61

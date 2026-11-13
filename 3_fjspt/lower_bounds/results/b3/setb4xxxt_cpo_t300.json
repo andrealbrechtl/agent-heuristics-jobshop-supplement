@@ -1,0 +1,10 @@
+{
+ "instance": "setb4xxxt",
+ "solver": "cpo",
+ "status": "Optimal",
+ "optimal": true,
+ "lb": "961",
+ "incumbent": "961",
+ "runtime": 3.59,
+ "hinted": true
+}

@@ -1,0 +1,15 @@
+2026-10-20T05:17:02-03:00 start ub3
+2026-10-20T05:47:02-03:00 behnke16: best_makespan 404 (LB 392) closed: 38 of 60; below FJSPLib UB: 17 [
+2026-10-20T06:17:03-03:00 behnke17: best_makespan 402 (LB 392) closed: 39 of 60; below FJSPLib UB: 17 [
+2026-10-20T06:47:04-03:00 behnke18: best_makespan 401 (LB 390) closed: 39 of 60; below FJSPLib UB: 17 [
+2026-10-20T07:17:05-03:00 behnke20: best_makespan 399 (LB 391) closed: 39 of 60; below FJSPLib UB: 17 [
+2026-10-20T07:47:05-03:00 behnke14: best_makespan 228 (LB 221) closed: 39 of 60; below FJSPLib UB: 18 [
+2026-10-20T08:17:06-03:00 behnke15: best_makespan 228 (LB 219) closed: 39 of 60; below FJSPLib UB: 18 [
+2026-10-20T08:47:06-03:00 behnke19: best_makespan 402 (LB 395) closed: 39 of 60; below FJSPLib UB: 18 [
+2026-10-20T09:17:07-03:00 behnke36: best_makespan 386 (LB 381) closed: 40 of 60; below FJSPLib UB: 18 [
+2026-10-20T09:47:08-03:00 behnke7: best_makespan 124 (LB 119) closed: 40 of 60; below FJSPLib UB: 18 [
+2026-10-20T10:17:09-03:00 behnke11: best_makespan 229 (LB 223) closed: 40 of 60; below FJSPLib UB: 18 [
+2026-10-20T10:47:09-03:00 behnke37: best_makespan 391 (LB 387) closed: 40 of 60; below FJSPLib UB: 18 [
+2026-10-20T11:17:10-03:00 behnke12: best_makespan 219 (LB 214) closed: 40 of 60; below FJSPLib UB: 18 [
+2026-10-20T11:47:11-03:00 behnke39: best_makespan 387 (LB 384) closed: 40 of 60; below FJSPLib UB: 18 [
+2026-10-20T12:08:29-03:00 STOPPED by user request

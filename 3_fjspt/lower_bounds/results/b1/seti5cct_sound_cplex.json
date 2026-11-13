@@ -1,0 +1,22 @@
+{
+ "instance": "seti5cct",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "1051",
+ "incumbent": "1051",
+ "runtime": 0.03,
+ "nvars": 1349,
+ "ncons": 1510,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_1": 1,
+  "f_12": 1
+ },
+ "empty_into_0": 13,
+ "empty_time": "114"
+}

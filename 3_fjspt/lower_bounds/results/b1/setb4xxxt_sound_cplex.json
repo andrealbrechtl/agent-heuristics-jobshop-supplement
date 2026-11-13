@@ -1,0 +1,22 @@
+{
+ "instance": "setb4xxxt",
+ "variant": "sound",
+ "solver": "cplex",
+ "status": "Integer optimal solution",
+ "optimal": true,
+ "lb": "884",
+ "incumbent": "884",
+ "runtime": 0.03,
+ "nvars": 965,
+ "ncons": 1098,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_4": 1,
+  "f_11": 1
+ },
+ "empty_into_0": 13,
+ "empty_time": "134"
+}

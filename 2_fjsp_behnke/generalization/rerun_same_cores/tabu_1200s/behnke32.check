@@ -1,0 +1,5 @@
+instance 2_fjsp_behnke/generalization/instances/behnke32.fjs: 50 jobs, 40 machines, 250 ops, instance machine base 1, header avg 12.21, recomputed avg 12.2080
+schedule runs/tabu_1200s/behnke32.sched: 250 rows, claimed makespan 225, meta {'instance': 'behnke32', 'jobs': '50', 'machines': '40', 'operations': '250'}
+  schedule machine base 0: FEASIBLE makespan 225
+  schedule machine base 1: infeasible (247 errors, first: op (0, 0) duration 11 != 13)
+RESULT: OK makespan 225 (schedule machine base 0)

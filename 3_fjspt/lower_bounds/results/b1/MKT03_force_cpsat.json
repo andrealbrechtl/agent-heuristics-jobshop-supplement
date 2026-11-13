@@ -1,0 +1,22 @@
+{
+ "instance": "MKT03",
+ "variant": "force",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "258",
+ "incumbent": "258",
+ "runtime": 0.52,
+ "nvars": 2328,
+ "ncons": 2043,
+ "u": 1,
+ "starts": {
+  "s_0": 2
+ },
+ "ends": {
+  "f_2": 1,
+  "f_7": 1
+ },
+ "empty_into_0": 13,
+ "empty_time": "102"
+}

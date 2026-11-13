@@ -1,0 +1,10 @@
+{
+ "instance": "MKT06",
+ "solver": "cpo",
+ "status": "Optimal",
+ "optimal": true,
+ "lb": "121",
+ "incumbent": "121",
+ "runtime": 203.36,
+ "hinted": true
+}

@@ -1,0 +1,22 @@
+{
+ "instance": "seti5c12t",
+ "variant": "force",
+ "solver": "cpsat",
+ "status": "OPTIMAL",
+ "optimal": true,
+ "lb": "1083",
+ "incumbent": "1083",
+ "runtime": 0.04,
+ "nvars": 1251,
+ "ncons": 1448,
+ "u": 1,
+ "starts": {
+  "s_8": 2
+ },
+ "ends": {
+  "f_1": 1,
+  "f_4": 1
+ },
+ "empty_into_0": 15,
+ "empty_time": "354"
+}

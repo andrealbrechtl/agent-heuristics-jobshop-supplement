@@ -1,0 +1,10 @@
+{
+ "instance": "MFJST06",
+ "solver": "cpo",
+ "status": "Optimal",
+ "optimal": true,
+ "lb": "652",
+ "incumbent": "652",
+ "runtime": 0.3,
+ "hinted": true
+}

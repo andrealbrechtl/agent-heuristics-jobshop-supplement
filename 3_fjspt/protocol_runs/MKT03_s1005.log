@@ -1,0 +1,4 @@
+[MKT03 s1005] run 1 t=368s runBest=302.0 best=302.0 it=100000000 feas=0.70
+[MKT03 s1005] run 2 t=734s runBest=298.0 best=298.0 it=200000000 feas=0.70
+[MKT03 s1005] run 3 t=1100s runBest=295.0 best=295.0 it=300000000 feas=0.70
+[MKT03 s1005] run 4 t=1200s runBest=366.0 best=295.0 it=327590656 feas=0.70

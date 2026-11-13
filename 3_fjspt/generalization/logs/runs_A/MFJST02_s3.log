@@ -1,0 +1,2 @@
+[MFJST02 s3] run 1 t=58s runBest=468.0 best=468.0 it=100000000 feas=0.69
+[MFJST02 s3] run 2 t=60s runBest=478.0 best=468.0 it=103211264 feas=0.69
